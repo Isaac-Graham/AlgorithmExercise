@@ -7,7 +7,7 @@ using namespace std;
 
 
 // 本题思路：动态规划
-// 
+//
 class Solution {
 public:
     string longestPalindrome(const string &s) {
