@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Q7.dir/1-20/7_String_to_Integer_Atoi.cpp.o  -o Q7.exe -Wl,--out-implib,libQ7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
