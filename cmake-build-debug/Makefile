@@ -111,19 +111,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Q11
-
-# Build rule for target.
-Q11: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Q11
-.PHONY : Q11
-
-# fast build rule for target.
-Q11/fast:
-	$(MAKE) -f CMakeFiles/Q11.dir/build.make CMakeFiles/Q11.dir/build
-.PHONY : Q11/fast
-
-#=============================================================================
 # Target rules for targets named main
 
 # Build rule for target.
@@ -137,44 +124,17 @@ main/fast:
 .PHONY : main/fast
 
 #=============================================================================
-# Target rules for targets named Q10
+# Target rules for targets named Q11
 
 # Build rule for target.
-Q10: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Q10
-.PHONY : Q10
+Q11: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Q11
+.PHONY : Q11
 
 # fast build rule for target.
-Q10/fast:
-	$(MAKE) -f CMakeFiles/Q10.dir/build.make CMakeFiles/Q10.dir/build
-.PHONY : Q10/fast
-
-1-20/10_Regular_Expression_Matching.o: 1-20/10_Regular_Expression_Matching.cpp.o
-
-.PHONY : 1-20/10_Regular_Expression_Matching.o
-
-# target to build an object file
-1-20/10_Regular_Expression_Matching.cpp.o:
-	$(MAKE) -f CMakeFiles/Q10.dir/build.make CMakeFiles/Q10.dir/1-20/10_Regular_Expression_Matching.cpp.o
-.PHONY : 1-20/10_Regular_Expression_Matching.cpp.o
-
-1-20/10_Regular_Expression_Matching.i: 1-20/10_Regular_Expression_Matching.cpp.i
-
-.PHONY : 1-20/10_Regular_Expression_Matching.i
-
-# target to preprocess a source file
-1-20/10_Regular_Expression_Matching.cpp.i:
-	$(MAKE) -f CMakeFiles/Q10.dir/build.make CMakeFiles/Q10.dir/1-20/10_Regular_Expression_Matching.cpp.i
-.PHONY : 1-20/10_Regular_Expression_Matching.cpp.i
-
-1-20/10_Regular_Expression_Matching.s: 1-20/10_Regular_Expression_Matching.cpp.s
-
-.PHONY : 1-20/10_Regular_Expression_Matching.s
-
-# target to generate assembly for a file
-1-20/10_Regular_Expression_Matching.cpp.s:
-	$(MAKE) -f CMakeFiles/Q10.dir/build.make CMakeFiles/Q10.dir/1-20/10_Regular_Expression_Matching.cpp.s
-.PHONY : 1-20/10_Regular_Expression_Matching.cpp.s
+Q11/fast:
+	$(MAKE) -f CMakeFiles/Q11.dir/build.make CMakeFiles/Q11.dir/build
+.PHONY : Q11/fast
 
 1-20/11_Container_with_Most_Water.o: 1-20/11_Container_with_Most_Water.cpp.o
 
@@ -237,13 +197,9 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... Q11"
 	@echo "... edit_cache"
 	@echo "... main"
-	@echo "... Q10"
-	@echo "... 1-20/10_Regular_Expression_Matching.o"
-	@echo "... 1-20/10_Regular_Expression_Matching.i"
-	@echo "... 1-20/10_Regular_Expression_Matching.s"
+	@echo "... Q11"
 	@echo "... 1-20/11_Container_with_Most_Water.o"
 	@echo "... 1-20/11_Container_with_Most_Water.i"
 	@echo "... 1-20/11_Container_with_Most_Water.s"
