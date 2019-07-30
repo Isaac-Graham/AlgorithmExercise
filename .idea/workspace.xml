@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/1-20/18_4_Sum.cpp" line="62" mnemonic="9" />
+  </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="Leetcode" targetName="Q17" />
+      <config projectName="Leetcode" targetName="Q18" />
       <config projectName="Leetcode" targetName="main" />
     </generated>
   </component>
@@ -13,6 +16,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35ce4987-6599-4446-b3c7-cdb7572393ae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/1-20/18_4_Sum.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
@@ -48,23 +52,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="21102" />
-          <entry key="txt" value="221" />
+          <entry key="cpp" value="23152" />
+          <entry key="txt" value="235" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="221" />
+          <entry key="CMakeLists.txt" value="235" />
           <entry key="Doxygen file" value="15" />
-          <entry key="ObjectiveC" value="21087" />
+          <entry key="ObjectiveC" value="23137" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Q10 (disassembly)" value="1" />
           <entry key="c" value="1" />
-          <entry key="cpp" value="27" />
-          <entry key="h" value="3" />
+          <entry key="cpp" value="29" />
+          <entry key="h" value="4" />
+          <entry key="map" value="1" />
           <entry key="txt" value="9" />
         </counts>
       </usages-collector>
@@ -72,27 +77,18 @@
         <counts>
           <entry key="CMakeLists.txt" value="9" />
           <entry key="Disassembly" value="1" />
-          <entry key="ObjectiveC" value="31" />
+          <entry key="ObjectiveC" value="35" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="68" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/1-20/17_Letter_Combinations_of_a_Phone_Number.cpp">
+        <entry file="file://$PROJECT_DIR$/1-20/18_4_Sum.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            <state relative-caret-position="306">
+              <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -127,8 +123,9 @@
         <option value="$PROJECT_DIR$/1-20/15_3_sum.cpp" />
         <option value="$PROJECT_DIR$/1-20/16_3Sum_Closest.cpp" />
         <option value="$PROJECT_DIR$/1-20/16_3_Sum_Closest.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/1-20/17_Letter_Combinations_of_a_Phone_Number.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/1-20/18_4_Sum.cpp" />
       </list>
     </option>
   </component>
@@ -184,13 +181,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Q17">
+  <component name="RunManager" selected="Application.Q18">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q17" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Leetcode" TARGET_NAME="Q17" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Leetcode" RUN_TARGET_NAME="Q17">
+    <configuration name="Q18" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Leetcode" TARGET_NAME="Q18" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Leetcode" RUN_TARGET_NAME="Q18">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -203,7 +200,7 @@
     <list>
       <item itemvalue="Application.Build All" />
       <item itemvalue="Application.main" />
-      <item itemvalue="Application.Q17" />
+      <item itemvalue="Application.Q18" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -229,19 +226,19 @@
       <workItem from="1563611550207" duration="1360000" />
       <workItem from="1563700935489" duration="636000" />
       <workItem from="1564302560861" duration="618000" />
-      <workItem from="1564465085684" duration="14153000" />
+      <workItem from="1564465085684" duration="18457000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81375000" />
+    <option name="totallyTimeSpent" value="85679000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4974227" visible="true" weight="0.11567164" />
-      <window_info id="Structure" order="1" sideWeight="0.5025773" side_tool="true" weight="0.08635394" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49649122" visible="true" weight="0.11567164" />
+      <window_info id="Structure" order="1" sideWeight="0.50350875" side_tool="true" weight="0.11567164" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -325,6 +322,11 @@
           <url>file://$PROJECT_DIR$/1-20/16_3_Sum_Closest.cpp</url>
           <line>18</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/1-20/18_4_Sum.cpp</url>
+          <line>33</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -448,17 +450,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/1-20/17_Letter_Combinations_of_a_Phone_Number.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="68" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
+        <state relative-caret-position="285">
+          <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1-20/17_Letter_Combinations_of_a_Phone_Number.cpp">
+    <entry file="file://D:/cygwin64/lib/gcc/x86_64-pc-cygwin/7.3.0/include/c++/map">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        <state relative-caret-position="222">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="e#2309#2335#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/cygwin64/lib/gcc/x86_64-pc-cygwin/7.3.0/include/c++/x86_64-pc-cygwin/bits/stdc++.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-20/18_4_Sum.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
         </state>
       </provider>
     </entry>

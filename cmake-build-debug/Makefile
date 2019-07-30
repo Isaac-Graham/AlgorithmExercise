@@ -124,44 +124,44 @@ main/fast:
 .PHONY : main/fast
 
 #=============================================================================
-# Target rules for targets named Q17
+# Target rules for targets named Q18
 
 # Build rule for target.
-Q17: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Q17
-.PHONY : Q17
+Q18: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Q18
+.PHONY : Q18
 
 # fast build rule for target.
-Q17/fast:
-	$(MAKE) -f CMakeFiles/Q17.dir/build.make CMakeFiles/Q17.dir/build
-.PHONY : Q17/fast
+Q18/fast:
+	$(MAKE) -f CMakeFiles/Q18.dir/build.make CMakeFiles/Q18.dir/build
+.PHONY : Q18/fast
 
-1-20/17_Letter_Combinations_of_a_Phone_Number.o: 1-20/17_Letter_Combinations_of_a_Phone_Number.cpp.o
+1-20/18_4_Sum.o: 1-20/18_4_Sum.cpp.o
 
-.PHONY : 1-20/17_Letter_Combinations_of_a_Phone_Number.o
+.PHONY : 1-20/18_4_Sum.o
 
 # target to build an object file
-1-20/17_Letter_Combinations_of_a_Phone_Number.cpp.o:
-	$(MAKE) -f CMakeFiles/Q17.dir/build.make CMakeFiles/Q17.dir/1-20/17_Letter_Combinations_of_a_Phone_Number.cpp.o
-.PHONY : 1-20/17_Letter_Combinations_of_a_Phone_Number.cpp.o
+1-20/18_4_Sum.cpp.o:
+	$(MAKE) -f CMakeFiles/Q18.dir/build.make CMakeFiles/Q18.dir/1-20/18_4_Sum.cpp.o
+.PHONY : 1-20/18_4_Sum.cpp.o
 
-1-20/17_Letter_Combinations_of_a_Phone_Number.i: 1-20/17_Letter_Combinations_of_a_Phone_Number.cpp.i
+1-20/18_4_Sum.i: 1-20/18_4_Sum.cpp.i
 
-.PHONY : 1-20/17_Letter_Combinations_of_a_Phone_Number.i
+.PHONY : 1-20/18_4_Sum.i
 
 # target to preprocess a source file
-1-20/17_Letter_Combinations_of_a_Phone_Number.cpp.i:
-	$(MAKE) -f CMakeFiles/Q17.dir/build.make CMakeFiles/Q17.dir/1-20/17_Letter_Combinations_of_a_Phone_Number.cpp.i
-.PHONY : 1-20/17_Letter_Combinations_of_a_Phone_Number.cpp.i
+1-20/18_4_Sum.cpp.i:
+	$(MAKE) -f CMakeFiles/Q18.dir/build.make CMakeFiles/Q18.dir/1-20/18_4_Sum.cpp.i
+.PHONY : 1-20/18_4_Sum.cpp.i
 
-1-20/17_Letter_Combinations_of_a_Phone_Number.s: 1-20/17_Letter_Combinations_of_a_Phone_Number.cpp.s
+1-20/18_4_Sum.s: 1-20/18_4_Sum.cpp.s
 
-.PHONY : 1-20/17_Letter_Combinations_of_a_Phone_Number.s
+.PHONY : 1-20/18_4_Sum.s
 
 # target to generate assembly for a file
-1-20/17_Letter_Combinations_of_a_Phone_Number.cpp.s:
-	$(MAKE) -f CMakeFiles/Q17.dir/build.make CMakeFiles/Q17.dir/1-20/17_Letter_Combinations_of_a_Phone_Number.cpp.s
-.PHONY : 1-20/17_Letter_Combinations_of_a_Phone_Number.cpp.s
+1-20/18_4_Sum.cpp.s:
+	$(MAKE) -f CMakeFiles/Q18.dir/build.make CMakeFiles/Q18.dir/1-20/18_4_Sum.cpp.s
+.PHONY : 1-20/18_4_Sum.cpp.s
 
 main.o: main.cpp.o
 
@@ -199,10 +199,10 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... main"
-	@echo "... Q17"
-	@echo "... 1-20/17_Letter_Combinations_of_a_Phone_Number.o"
-	@echo "... 1-20/17_Letter_Combinations_of_a_Phone_Number.i"
-	@echo "... 1-20/17_Letter_Combinations_of_a_Phone_Number.s"
+	@echo "... Q18"
+	@echo "... 1-20/18_4_Sum.o"
+	@echo "... 1-20/18_4_Sum.i"
+	@echo "... 1-20/18_4_Sum.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
