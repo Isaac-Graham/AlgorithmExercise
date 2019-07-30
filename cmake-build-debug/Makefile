@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /cygdrive/e/Code/Leetcode/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"/cygdrive/c/Users/Isaac Graham/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe" -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"/cygdrive/c/Users/Isaac Graham/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe" -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -124,44 +124,44 @@ main/fast:
 .PHONY : main/fast
 
 #=============================================================================
-# Target rules for targets named Q20
+# Target rules for targets named Q21
 
 # Build rule for target.
-Q20: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Q20
-.PHONY : Q20
+Q21: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Q21
+.PHONY : Q21
 
 # fast build rule for target.
-Q20/fast:
-	$(MAKE) -f CMakeFiles/Q20.dir/build.make CMakeFiles/Q20.dir/build
-.PHONY : Q20/fast
+Q21/fast:
+	$(MAKE) -f CMakeFiles/Q21.dir/build.make CMakeFiles/Q21.dir/build
+.PHONY : Q21/fast
 
-1-20/20_Valid_Parentheses.o: 1-20/20_Valid_Parentheses.cpp.o
+21-40/21_Merge_Two_Sorted_Lists.o: 21-40/21_Merge_Two_Sorted_Lists.cpp.o
 
-.PHONY : 1-20/20_Valid_Parentheses.o
+.PHONY : 21-40/21_Merge_Two_Sorted_Lists.o
 
 # target to build an object file
-1-20/20_Valid_Parentheses.cpp.o:
-	$(MAKE) -f CMakeFiles/Q20.dir/build.make CMakeFiles/Q20.dir/1-20/20_Valid_Parentheses.cpp.o
-.PHONY : 1-20/20_Valid_Parentheses.cpp.o
+21-40/21_Merge_Two_Sorted_Lists.cpp.o:
+	$(MAKE) -f CMakeFiles/Q21.dir/build.make CMakeFiles/Q21.dir/21-40/21_Merge_Two_Sorted_Lists.cpp.o
+.PHONY : 21-40/21_Merge_Two_Sorted_Lists.cpp.o
 
-1-20/20_Valid_Parentheses.i: 1-20/20_Valid_Parentheses.cpp.i
+21-40/21_Merge_Two_Sorted_Lists.i: 21-40/21_Merge_Two_Sorted_Lists.cpp.i
 
-.PHONY : 1-20/20_Valid_Parentheses.i
+.PHONY : 21-40/21_Merge_Two_Sorted_Lists.i
 
 # target to preprocess a source file
-1-20/20_Valid_Parentheses.cpp.i:
-	$(MAKE) -f CMakeFiles/Q20.dir/build.make CMakeFiles/Q20.dir/1-20/20_Valid_Parentheses.cpp.i
-.PHONY : 1-20/20_Valid_Parentheses.cpp.i
+21-40/21_Merge_Two_Sorted_Lists.cpp.i:
+	$(MAKE) -f CMakeFiles/Q21.dir/build.make CMakeFiles/Q21.dir/21-40/21_Merge_Two_Sorted_Lists.cpp.i
+.PHONY : 21-40/21_Merge_Two_Sorted_Lists.cpp.i
 
-1-20/20_Valid_Parentheses.s: 1-20/20_Valid_Parentheses.cpp.s
+21-40/21_Merge_Two_Sorted_Lists.s: 21-40/21_Merge_Two_Sorted_Lists.cpp.s
 
-.PHONY : 1-20/20_Valid_Parentheses.s
+.PHONY : 21-40/21_Merge_Two_Sorted_Lists.s
 
 # target to generate assembly for a file
-1-20/20_Valid_Parentheses.cpp.s:
-	$(MAKE) -f CMakeFiles/Q20.dir/build.make CMakeFiles/Q20.dir/1-20/20_Valid_Parentheses.cpp.s
-.PHONY : 1-20/20_Valid_Parentheses.cpp.s
+21-40/21_Merge_Two_Sorted_Lists.cpp.s:
+	$(MAKE) -f CMakeFiles/Q21.dir/build.make CMakeFiles/Q21.dir/21-40/21_Merge_Two_Sorted_Lists.cpp.s
+.PHONY : 21-40/21_Merge_Two_Sorted_Lists.cpp.s
 
 main.o: main.cpp.o
 
@@ -196,13 +196,13 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... main"
-	@echo "... rebuild_cache"
-	@echo "... Q20"
-	@echo "... 1-20/20_Valid_Parentheses.o"
-	@echo "... 1-20/20_Valid_Parentheses.i"
-	@echo "... 1-20/20_Valid_Parentheses.s"
+	@echo "... Q21"
+	@echo "... 21-40/21_Merge_Two_Sorted_Lists.o"
+	@echo "... 21-40/21_Merge_Two_Sorted_Lists.i"
+	@echo "... 21-40/21_Merge_Two_Sorted_Lists.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

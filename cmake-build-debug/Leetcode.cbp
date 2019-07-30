@@ -17,6 +17,16 @@
 					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/e/Code/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/cygdrive/e/Code/Leetcode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/e/Code/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/e/Code/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/e/Code/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/e/Code/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/cygdrive/e/Code/Leetcode/cmake-build-debug"/>
 				<Option type="4"/>
@@ -69,18 +79,8 @@
 					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/e/Code/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/cygdrive/e/Code/Leetcode/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/e/Code/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/e/Code/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/e/Code/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/e/Code/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Q20">
-				<Option output="/cygdrive/e/Code/Leetcode/cmake-build-debug/Q20.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="Q21">
+				<Option output="/cygdrive/e/Code/Leetcode/cmake-build-debug/Q21.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/cygdrive/e/Code/Leetcode/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -94,14 +94,14 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/e/Code/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q20"/>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/e/Code/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q21"/>
 					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/e/Code/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/e/Code/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/e/Code/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Q20/fast">
-				<Option output="/cygdrive/e/Code/Leetcode/cmake-build-debug/Q20.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="Q21/fast">
+				<Option output="/cygdrive/e/Code/Leetcode/cmake-build-debug/Q21.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/cygdrive/e/Code/Leetcode/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -115,15 +115,15 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/e/Code/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q20/fast"/>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/e/Code/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Q21/fast"/>
 					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/e/Code/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/e/Code/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/e/Code/Leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/e/Code/Leetcode/1-20/20_Valid_Parentheses.cpp">
-			<Option target="Q20"/>
+		<Unit filename="/cygdrive/e/Code/Leetcode/21-40/21_Merge_Two_Sorted_Lists.cpp">
+			<Option target="Q21"/>
 		</Unit>
 		<Unit filename="/cygdrive/e/Code/Leetcode/main.cpp">
 			<Option target="main"/>

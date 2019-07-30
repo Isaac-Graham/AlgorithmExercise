@@ -102,39 +102,39 @@ clean: CMakeFiles/main.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Q20.dir
+# Target rules for target CMakeFiles/Q21.dir
 
 # All Build rule for target.
-CMakeFiles/Q20.dir/all:
-	$(MAKE) -f CMakeFiles/Q20.dir/build.make CMakeFiles/Q20.dir/depend
-	$(MAKE) -f CMakeFiles/Q20.dir/build.make CMakeFiles/Q20.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/e/Code/Leetcode/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Q20"
-.PHONY : CMakeFiles/Q20.dir/all
+CMakeFiles/Q21.dir/all:
+	$(MAKE) -f CMakeFiles/Q21.dir/build.make CMakeFiles/Q21.dir/depend
+	$(MAKE) -f CMakeFiles/Q21.dir/build.make CMakeFiles/Q21.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/e/Code/Leetcode/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Q21"
+.PHONY : CMakeFiles/Q21.dir/all
 
 # Include target in all.
-all: CMakeFiles/Q20.dir/all
+all: CMakeFiles/Q21.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Q20.dir/rule: cmake_check_build_system
+CMakeFiles/Q21.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/e/Code/Leetcode/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Q20.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Q21.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/e/Code/Leetcode/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Q20.dir/rule
+.PHONY : CMakeFiles/Q21.dir/rule
 
 # Convenience name for target.
-Q20: CMakeFiles/Q20.dir/rule
+Q21: CMakeFiles/Q21.dir/rule
 
-.PHONY : Q20
-
-# clean rule for target.
-CMakeFiles/Q20.dir/clean:
-	$(MAKE) -f CMakeFiles/Q20.dir/build.make CMakeFiles/Q20.dir/clean
-.PHONY : CMakeFiles/Q20.dir/clean
+.PHONY : Q21
 
 # clean rule for target.
-clean: CMakeFiles/Q20.dir/clean
+CMakeFiles/Q21.dir/clean:
+	$(MAKE) -f CMakeFiles/Q21.dir/build.make CMakeFiles/Q21.dir/clean
+.PHONY : CMakeFiles/Q21.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Q21.dir/clean
 
 .PHONY : clean
 
