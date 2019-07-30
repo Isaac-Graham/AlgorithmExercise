@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /cygdrive/e/Code/Leetcode/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"/cygdrive/c/Users/Isaac Graham/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"/cygdrive/c/Users/Isaac Graham/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -124,44 +124,44 @@ main/fast:
 .PHONY : main/fast
 
 #=============================================================================
-# Target rules for targets named Q19
+# Target rules for targets named Q20
 
 # Build rule for target.
-Q19: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Q19
-.PHONY : Q19
+Q20: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Q20
+.PHONY : Q20
 
 # fast build rule for target.
-Q19/fast:
-	$(MAKE) -f CMakeFiles/Q19.dir/build.make CMakeFiles/Q19.dir/build
-.PHONY : Q19/fast
+Q20/fast:
+	$(MAKE) -f CMakeFiles/Q20.dir/build.make CMakeFiles/Q20.dir/build
+.PHONY : Q20/fast
 
-1-20/19_Remove_Nth_Node_from_End_of_List.o: 1-20/19_Remove_Nth_Node_from_End_of_List.cpp.o
+1-20/20_Valid_Parentheses.o: 1-20/20_Valid_Parentheses.cpp.o
 
-.PHONY : 1-20/19_Remove_Nth_Node_from_End_of_List.o
+.PHONY : 1-20/20_Valid_Parentheses.o
 
 # target to build an object file
-1-20/19_Remove_Nth_Node_from_End_of_List.cpp.o:
-	$(MAKE) -f CMakeFiles/Q19.dir/build.make CMakeFiles/Q19.dir/1-20/19_Remove_Nth_Node_from_End_of_List.cpp.o
-.PHONY : 1-20/19_Remove_Nth_Node_from_End_of_List.cpp.o
+1-20/20_Valid_Parentheses.cpp.o:
+	$(MAKE) -f CMakeFiles/Q20.dir/build.make CMakeFiles/Q20.dir/1-20/20_Valid_Parentheses.cpp.o
+.PHONY : 1-20/20_Valid_Parentheses.cpp.o
 
-1-20/19_Remove_Nth_Node_from_End_of_List.i: 1-20/19_Remove_Nth_Node_from_End_of_List.cpp.i
+1-20/20_Valid_Parentheses.i: 1-20/20_Valid_Parentheses.cpp.i
 
-.PHONY : 1-20/19_Remove_Nth_Node_from_End_of_List.i
+.PHONY : 1-20/20_Valid_Parentheses.i
 
 # target to preprocess a source file
-1-20/19_Remove_Nth_Node_from_End_of_List.cpp.i:
-	$(MAKE) -f CMakeFiles/Q19.dir/build.make CMakeFiles/Q19.dir/1-20/19_Remove_Nth_Node_from_End_of_List.cpp.i
-.PHONY : 1-20/19_Remove_Nth_Node_from_End_of_List.cpp.i
+1-20/20_Valid_Parentheses.cpp.i:
+	$(MAKE) -f CMakeFiles/Q20.dir/build.make CMakeFiles/Q20.dir/1-20/20_Valid_Parentheses.cpp.i
+.PHONY : 1-20/20_Valid_Parentheses.cpp.i
 
-1-20/19_Remove_Nth_Node_from_End_of_List.s: 1-20/19_Remove_Nth_Node_from_End_of_List.cpp.s
+1-20/20_Valid_Parentheses.s: 1-20/20_Valid_Parentheses.cpp.s
 
-.PHONY : 1-20/19_Remove_Nth_Node_from_End_of_List.s
+.PHONY : 1-20/20_Valid_Parentheses.s
 
 # target to generate assembly for a file
-1-20/19_Remove_Nth_Node_from_End_of_List.cpp.s:
-	$(MAKE) -f CMakeFiles/Q19.dir/build.make CMakeFiles/Q19.dir/1-20/19_Remove_Nth_Node_from_End_of_List.cpp.s
-.PHONY : 1-20/19_Remove_Nth_Node_from_End_of_List.cpp.s
+1-20/20_Valid_Parentheses.cpp.s:
+	$(MAKE) -f CMakeFiles/Q20.dir/build.make CMakeFiles/Q20.dir/1-20/20_Valid_Parentheses.cpp.s
+.PHONY : 1-20/20_Valid_Parentheses.cpp.s
 
 main.o: main.cpp.o
 
@@ -196,13 +196,13 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... main"
-	@echo "... Q19"
-	@echo "... 1-20/19_Remove_Nth_Node_from_End_of_List.o"
-	@echo "... 1-20/19_Remove_Nth_Node_from_End_of_List.i"
-	@echo "... 1-20/19_Remove_Nth_Node_from_End_of_List.s"
+	@echo "... rebuild_cache"
+	@echo "... Q20"
+	@echo "... 1-20/20_Valid_Parentheses.o"
+	@echo "... 1-20/20_Valid_Parentheses.i"
+	@echo "... 1-20/20_Valid_Parentheses.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

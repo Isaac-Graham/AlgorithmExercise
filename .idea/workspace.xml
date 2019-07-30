@@ -5,8 +5,8 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="Leetcode" targetName="Q19" />
       <config projectName="Leetcode" targetName="main" />
+      <config projectName="Leetcode" targetName="Q20" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -16,7 +16,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35ce4987-6599-4446-b3c7-cdb7572393ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1-20/19_Remove_Nth_Node_from_End_of_List.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-20/20_Valid_Parentheses.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
@@ -52,52 +52,43 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="23844" />
-          <entry key="txt" value="253" />
+          <entry key="cpp" value="24373" />
+          <entry key="txt" value="268" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="253" />
-          <entry key="Doxygen file" value="19" />
-          <entry key="ObjectiveC" value="23825" />
+          <entry key="CMakeLists.txt" value="268" />
+          <entry key="Doxygen file" value="22" />
+          <entry key="ObjectiveC" value="24351" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Q10 (disassembly)" value="1" />
           <entry key="c" value="1" />
-          <entry key="cpp" value="30" />
+          <entry key="cpp" value="31" />
           <entry key="h" value="4" />
           <entry key="map" value="1" />
-          <entry key="txt" value="10" />
+          <entry key="txt" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CMakeLists.txt" value="10" />
+          <entry key="CMakeLists.txt" value="11" />
           <entry key="Disassembly" value="1" />
-          <entry key="ObjectiveC" value="36" />
+          <entry key="ObjectiveC" value="37" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1-20/18_4_Sum.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="86" column="49" selection-start-line="86" selection-start-column="49" selection-end-line="86" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/1-20/19_Remove_Nth_Node_from_End_of_List.cpp">
+        <entry file="file://$PROJECT_DIR$/1-20/20_Valid_Parentheses.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="579">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="114">
+              <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -134,8 +125,9 @@
         <option value="$PROJECT_DIR$/1-20/16_3_Sum_Closest.cpp" />
         <option value="$PROJECT_DIR$/1-20/17_Letter_Combinations_of_a_Phone_Number.cpp" />
         <option value="$PROJECT_DIR$/1-20/18_4_Sum.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/1-20/19_Remove_Nth_Node_from_End_of_List.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/1-20/20_Valid_Parentheses.cpp" />
       </list>
     </option>
   </component>
@@ -191,13 +183,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.main">
+  <component name="RunManager" selected="Application.Q20">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q19" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Leetcode" TARGET_NAME="Q19" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Leetcode" RUN_TARGET_NAME="Q19">
+    <configuration name="Q20" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Leetcode" TARGET_NAME="Q20" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Leetcode" RUN_TARGET_NAME="Q20">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -210,7 +202,7 @@
     <list>
       <item itemvalue="Application.Build All" />
       <item itemvalue="Application.main" />
-      <item itemvalue="Application.Q19" />
+      <item itemvalue="Application.Q20" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -236,23 +228,23 @@
       <workItem from="1563611550207" duration="1360000" />
       <workItem from="1563700935489" duration="636000" />
       <workItem from="1564302560861" duration="618000" />
-      <workItem from="1564465085684" duration="19768000" />
+      <workItem from="1564465085684" duration="20508000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86990000" />
+    <option name="totallyTimeSpent" value="87730000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49649122" visible="true" weight="0.11567164" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49649122" visible="true" weight="0.11567164" />
       <window_info id="Structure" order="1" sideWeight="0.50350875" side_tool="true" weight="0.11567164" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22972973" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22972973" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991684" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -491,17 +483,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1-20/19_Remove_Nth_Node_from_End_of_List.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="579">
           <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-20/20_Valid_Parentheses.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
         </state>
       </provider>
     </entry>
