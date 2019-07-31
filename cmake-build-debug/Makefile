@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /cygdrive/e/Code/Leetcode/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"/cygdrive/c/Users/Isaac Graham/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"/cygdrive/c/Users/Isaac Graham/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -124,44 +124,44 @@ main/fast:
 .PHONY : main/fast
 
 #=============================================================================
-# Target rules for targets named Q24
+# Target rules for targets named Q25
 
 # Build rule for target.
-Q24: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Q24
-.PHONY : Q24
+Q25: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Q25
+.PHONY : Q25
 
 # fast build rule for target.
-Q24/fast:
-	$(MAKE) -f CMakeFiles/Q24.dir/build.make CMakeFiles/Q24.dir/build
-.PHONY : Q24/fast
+Q25/fast:
+	$(MAKE) -f CMakeFiles/Q25.dir/build.make CMakeFiles/Q25.dir/build
+.PHONY : Q25/fast
 
-21-40/24_Swap_Nodes_in_Pairs.o: 21-40/24_Swap_Nodes_in_Pairs.cpp.o
+21-40/25_Reverse_Nodes_in_k_Group.o: 21-40/25_Reverse_Nodes_in_k_Group.cpp.o
 
-.PHONY : 21-40/24_Swap_Nodes_in_Pairs.o
+.PHONY : 21-40/25_Reverse_Nodes_in_k_Group.o
 
 # target to build an object file
-21-40/24_Swap_Nodes_in_Pairs.cpp.o:
-	$(MAKE) -f CMakeFiles/Q24.dir/build.make CMakeFiles/Q24.dir/21-40/24_Swap_Nodes_in_Pairs.cpp.o
-.PHONY : 21-40/24_Swap_Nodes_in_Pairs.cpp.o
+21-40/25_Reverse_Nodes_in_k_Group.cpp.o:
+	$(MAKE) -f CMakeFiles/Q25.dir/build.make CMakeFiles/Q25.dir/21-40/25_Reverse_Nodes_in_k_Group.cpp.o
+.PHONY : 21-40/25_Reverse_Nodes_in_k_Group.cpp.o
 
-21-40/24_Swap_Nodes_in_Pairs.i: 21-40/24_Swap_Nodes_in_Pairs.cpp.i
+21-40/25_Reverse_Nodes_in_k_Group.i: 21-40/25_Reverse_Nodes_in_k_Group.cpp.i
 
-.PHONY : 21-40/24_Swap_Nodes_in_Pairs.i
+.PHONY : 21-40/25_Reverse_Nodes_in_k_Group.i
 
 # target to preprocess a source file
-21-40/24_Swap_Nodes_in_Pairs.cpp.i:
-	$(MAKE) -f CMakeFiles/Q24.dir/build.make CMakeFiles/Q24.dir/21-40/24_Swap_Nodes_in_Pairs.cpp.i
-.PHONY : 21-40/24_Swap_Nodes_in_Pairs.cpp.i
+21-40/25_Reverse_Nodes_in_k_Group.cpp.i:
+	$(MAKE) -f CMakeFiles/Q25.dir/build.make CMakeFiles/Q25.dir/21-40/25_Reverse_Nodes_in_k_Group.cpp.i
+.PHONY : 21-40/25_Reverse_Nodes_in_k_Group.cpp.i
 
-21-40/24_Swap_Nodes_in_Pairs.s: 21-40/24_Swap_Nodes_in_Pairs.cpp.s
+21-40/25_Reverse_Nodes_in_k_Group.s: 21-40/25_Reverse_Nodes_in_k_Group.cpp.s
 
-.PHONY : 21-40/24_Swap_Nodes_in_Pairs.s
+.PHONY : 21-40/25_Reverse_Nodes_in_k_Group.s
 
 # target to generate assembly for a file
-21-40/24_Swap_Nodes_in_Pairs.cpp.s:
-	$(MAKE) -f CMakeFiles/Q24.dir/build.make CMakeFiles/Q24.dir/21-40/24_Swap_Nodes_in_Pairs.cpp.s
-.PHONY : 21-40/24_Swap_Nodes_in_Pairs.cpp.s
+21-40/25_Reverse_Nodes_in_k_Group.cpp.s:
+	$(MAKE) -f CMakeFiles/Q25.dir/build.make CMakeFiles/Q25.dir/21-40/25_Reverse_Nodes_in_k_Group.cpp.s
+.PHONY : 21-40/25_Reverse_Nodes_in_k_Group.cpp.s
 
 main.o: main.cpp.o
 
@@ -196,13 +196,13 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... main"
-	@echo "... Q24"
-	@echo "... 21-40/24_Swap_Nodes_in_Pairs.o"
-	@echo "... 21-40/24_Swap_Nodes_in_Pairs.i"
-	@echo "... 21-40/24_Swap_Nodes_in_Pairs.s"
+	@echo "... rebuild_cache"
+	@echo "... Q25"
+	@echo "... 21-40/25_Reverse_Nodes_in_k_Group.o"
+	@echo "... 21-40/25_Reverse_Nodes_in_k_Group.i"
+	@echo "... 21-40/25_Reverse_Nodes_in_k_Group.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
