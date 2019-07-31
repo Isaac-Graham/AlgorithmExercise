@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Q24.dir/21-40/24_Swap_Nodes_in_Pairs.cpp.o  -o Q24.exe -Wl,--out-implib,libQ24.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

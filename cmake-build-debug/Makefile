@@ -124,44 +124,44 @@ main/fast:
 .PHONY : main/fast
 
 #=============================================================================
-# Target rules for targets named Q23
+# Target rules for targets named Q24
 
 # Build rule for target.
-Q23: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Q23
-.PHONY : Q23
+Q24: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Q24
+.PHONY : Q24
 
 # fast build rule for target.
-Q23/fast:
-	$(MAKE) -f CMakeFiles/Q23.dir/build.make CMakeFiles/Q23.dir/build
-.PHONY : Q23/fast
+Q24/fast:
+	$(MAKE) -f CMakeFiles/Q24.dir/build.make CMakeFiles/Q24.dir/build
+.PHONY : Q24/fast
 
-21-40/23_Merge_k_Sorted_Lists.o: 21-40/23_Merge_k_Sorted_Lists.cpp.o
+21-40/24_Swap_Nodes_in_Pairs.o: 21-40/24_Swap_Nodes_in_Pairs.cpp.o
 
-.PHONY : 21-40/23_Merge_k_Sorted_Lists.o
+.PHONY : 21-40/24_Swap_Nodes_in_Pairs.o
 
 # target to build an object file
-21-40/23_Merge_k_Sorted_Lists.cpp.o:
-	$(MAKE) -f CMakeFiles/Q23.dir/build.make CMakeFiles/Q23.dir/21-40/23_Merge_k_Sorted_Lists.cpp.o
-.PHONY : 21-40/23_Merge_k_Sorted_Lists.cpp.o
+21-40/24_Swap_Nodes_in_Pairs.cpp.o:
+	$(MAKE) -f CMakeFiles/Q24.dir/build.make CMakeFiles/Q24.dir/21-40/24_Swap_Nodes_in_Pairs.cpp.o
+.PHONY : 21-40/24_Swap_Nodes_in_Pairs.cpp.o
 
-21-40/23_Merge_k_Sorted_Lists.i: 21-40/23_Merge_k_Sorted_Lists.cpp.i
+21-40/24_Swap_Nodes_in_Pairs.i: 21-40/24_Swap_Nodes_in_Pairs.cpp.i
 
-.PHONY : 21-40/23_Merge_k_Sorted_Lists.i
+.PHONY : 21-40/24_Swap_Nodes_in_Pairs.i
 
 # target to preprocess a source file
-21-40/23_Merge_k_Sorted_Lists.cpp.i:
-	$(MAKE) -f CMakeFiles/Q23.dir/build.make CMakeFiles/Q23.dir/21-40/23_Merge_k_Sorted_Lists.cpp.i
-.PHONY : 21-40/23_Merge_k_Sorted_Lists.cpp.i
+21-40/24_Swap_Nodes_in_Pairs.cpp.i:
+	$(MAKE) -f CMakeFiles/Q24.dir/build.make CMakeFiles/Q24.dir/21-40/24_Swap_Nodes_in_Pairs.cpp.i
+.PHONY : 21-40/24_Swap_Nodes_in_Pairs.cpp.i
 
-21-40/23_Merge_k_Sorted_Lists.s: 21-40/23_Merge_k_Sorted_Lists.cpp.s
+21-40/24_Swap_Nodes_in_Pairs.s: 21-40/24_Swap_Nodes_in_Pairs.cpp.s
 
-.PHONY : 21-40/23_Merge_k_Sorted_Lists.s
+.PHONY : 21-40/24_Swap_Nodes_in_Pairs.s
 
 # target to generate assembly for a file
-21-40/23_Merge_k_Sorted_Lists.cpp.s:
-	$(MAKE) -f CMakeFiles/Q23.dir/build.make CMakeFiles/Q23.dir/21-40/23_Merge_k_Sorted_Lists.cpp.s
-.PHONY : 21-40/23_Merge_k_Sorted_Lists.cpp.s
+21-40/24_Swap_Nodes_in_Pairs.cpp.s:
+	$(MAKE) -f CMakeFiles/Q24.dir/build.make CMakeFiles/Q24.dir/21-40/24_Swap_Nodes_in_Pairs.cpp.s
+.PHONY : 21-40/24_Swap_Nodes_in_Pairs.cpp.s
 
 main.o: main.cpp.o
 
@@ -199,10 +199,10 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... main"
-	@echo "... Q23"
-	@echo "... 21-40/23_Merge_k_Sorted_Lists.o"
-	@echo "... 21-40/23_Merge_k_Sorted_Lists.i"
-	@echo "... 21-40/23_Merge_k_Sorted_Lists.s"
+	@echo "... Q24"
+	@echo "... 21-40/24_Swap_Nodes_in_Pairs.o"
+	@echo "... 21-40/24_Swap_Nodes_in_Pairs.i"
+	@echo "... 21-40/24_Swap_Nodes_in_Pairs.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
