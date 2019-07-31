@@ -124,44 +124,44 @@ main/fast:
 .PHONY : main/fast
 
 #=============================================================================
-# Target rules for targets named Q22
+# Target rules for targets named Q23
 
 # Build rule for target.
-Q22: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Q22
-.PHONY : Q22
+Q23: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Q23
+.PHONY : Q23
 
 # fast build rule for target.
-Q22/fast:
-	$(MAKE) -f CMakeFiles/Q22.dir/build.make CMakeFiles/Q22.dir/build
-.PHONY : Q22/fast
+Q23/fast:
+	$(MAKE) -f CMakeFiles/Q23.dir/build.make CMakeFiles/Q23.dir/build
+.PHONY : Q23/fast
 
-21-40/22_Generate_Parentheses.o: 21-40/22_Generate_Parentheses.cpp.o
+21-40/23_Merge_k_Sorted_Lists.o: 21-40/23_Merge_k_Sorted_Lists.cpp.o
 
-.PHONY : 21-40/22_Generate_Parentheses.o
+.PHONY : 21-40/23_Merge_k_Sorted_Lists.o
 
 # target to build an object file
-21-40/22_Generate_Parentheses.cpp.o:
-	$(MAKE) -f CMakeFiles/Q22.dir/build.make CMakeFiles/Q22.dir/21-40/22_Generate_Parentheses.cpp.o
-.PHONY : 21-40/22_Generate_Parentheses.cpp.o
+21-40/23_Merge_k_Sorted_Lists.cpp.o:
+	$(MAKE) -f CMakeFiles/Q23.dir/build.make CMakeFiles/Q23.dir/21-40/23_Merge_k_Sorted_Lists.cpp.o
+.PHONY : 21-40/23_Merge_k_Sorted_Lists.cpp.o
 
-21-40/22_Generate_Parentheses.i: 21-40/22_Generate_Parentheses.cpp.i
+21-40/23_Merge_k_Sorted_Lists.i: 21-40/23_Merge_k_Sorted_Lists.cpp.i
 
-.PHONY : 21-40/22_Generate_Parentheses.i
+.PHONY : 21-40/23_Merge_k_Sorted_Lists.i
 
 # target to preprocess a source file
-21-40/22_Generate_Parentheses.cpp.i:
-	$(MAKE) -f CMakeFiles/Q22.dir/build.make CMakeFiles/Q22.dir/21-40/22_Generate_Parentheses.cpp.i
-.PHONY : 21-40/22_Generate_Parentheses.cpp.i
+21-40/23_Merge_k_Sorted_Lists.cpp.i:
+	$(MAKE) -f CMakeFiles/Q23.dir/build.make CMakeFiles/Q23.dir/21-40/23_Merge_k_Sorted_Lists.cpp.i
+.PHONY : 21-40/23_Merge_k_Sorted_Lists.cpp.i
 
-21-40/22_Generate_Parentheses.s: 21-40/22_Generate_Parentheses.cpp.s
+21-40/23_Merge_k_Sorted_Lists.s: 21-40/23_Merge_k_Sorted_Lists.cpp.s
 
-.PHONY : 21-40/22_Generate_Parentheses.s
+.PHONY : 21-40/23_Merge_k_Sorted_Lists.s
 
 # target to generate assembly for a file
-21-40/22_Generate_Parentheses.cpp.s:
-	$(MAKE) -f CMakeFiles/Q22.dir/build.make CMakeFiles/Q22.dir/21-40/22_Generate_Parentheses.cpp.s
-.PHONY : 21-40/22_Generate_Parentheses.cpp.s
+21-40/23_Merge_k_Sorted_Lists.cpp.s:
+	$(MAKE) -f CMakeFiles/Q23.dir/build.make CMakeFiles/Q23.dir/21-40/23_Merge_k_Sorted_Lists.cpp.s
+.PHONY : 21-40/23_Merge_k_Sorted_Lists.cpp.s
 
 main.o: main.cpp.o
 
@@ -199,10 +199,10 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... main"
-	@echo "... Q22"
-	@echo "... 21-40/22_Generate_Parentheses.o"
-	@echo "... 21-40/22_Generate_Parentheses.i"
-	@echo "... 21-40/22_Generate_Parentheses.s"
+	@echo "... Q23"
+	@echo "... 21-40/23_Merge_k_Sorted_Lists.o"
+	@echo "... 21-40/23_Merge_k_Sorted_Lists.i"
+	@echo "... 21-40/23_Merge_k_Sorted_Lists.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
