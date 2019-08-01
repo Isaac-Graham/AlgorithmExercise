@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /cygdrive/e/Code/Leetcode/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"/cygdrive/c/Users/Isaac Graham/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe" -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"/cygdrive/c/Users/Isaac Graham/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe" -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,84 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main
+# Target rules for targets named Q28
 
 # Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 main
-.PHONY : main
+Q28: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Q28
+.PHONY : Q28
 
 # fast build rule for target.
-main/fast:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
+Q28/fast:
+	$(MAKE) -f CMakeFiles/Q28.dir/build.make CMakeFiles/Q28.dir/build
+.PHONY : Q28/fast
 
-#=============================================================================
-# Target rules for targets named Q25
+21-40/28_Implement_Strstr.o: 21-40/28_Implement_Strstr.cpp.o
 
-# Build rule for target.
-Q25: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Q25
-.PHONY : Q25
-
-# fast build rule for target.
-Q25/fast:
-	$(MAKE) -f CMakeFiles/Q25.dir/build.make CMakeFiles/Q25.dir/build
-.PHONY : Q25/fast
-
-21-40/25_Reverse_Nodes_in_k_Group.o: 21-40/25_Reverse_Nodes_in_k_Group.cpp.o
-
-.PHONY : 21-40/25_Reverse_Nodes_in_k_Group.o
+.PHONY : 21-40/28_Implement_Strstr.o
 
 # target to build an object file
-21-40/25_Reverse_Nodes_in_k_Group.cpp.o:
-	$(MAKE) -f CMakeFiles/Q25.dir/build.make CMakeFiles/Q25.dir/21-40/25_Reverse_Nodes_in_k_Group.cpp.o
-.PHONY : 21-40/25_Reverse_Nodes_in_k_Group.cpp.o
+21-40/28_Implement_Strstr.cpp.o:
+	$(MAKE) -f CMakeFiles/Q28.dir/build.make CMakeFiles/Q28.dir/21-40/28_Implement_Strstr.cpp.o
+.PHONY : 21-40/28_Implement_Strstr.cpp.o
 
-21-40/25_Reverse_Nodes_in_k_Group.i: 21-40/25_Reverse_Nodes_in_k_Group.cpp.i
+21-40/28_Implement_Strstr.i: 21-40/28_Implement_Strstr.cpp.i
 
-.PHONY : 21-40/25_Reverse_Nodes_in_k_Group.i
-
-# target to preprocess a source file
-21-40/25_Reverse_Nodes_in_k_Group.cpp.i:
-	$(MAKE) -f CMakeFiles/Q25.dir/build.make CMakeFiles/Q25.dir/21-40/25_Reverse_Nodes_in_k_Group.cpp.i
-.PHONY : 21-40/25_Reverse_Nodes_in_k_Group.cpp.i
-
-21-40/25_Reverse_Nodes_in_k_Group.s: 21-40/25_Reverse_Nodes_in_k_Group.cpp.s
-
-.PHONY : 21-40/25_Reverse_Nodes_in_k_Group.s
-
-# target to generate assembly for a file
-21-40/25_Reverse_Nodes_in_k_Group.cpp.s:
-	$(MAKE) -f CMakeFiles/Q25.dir/build.make CMakeFiles/Q25.dir/21-40/25_Reverse_Nodes_in_k_Group.cpp.s
-.PHONY : 21-40/25_Reverse_Nodes_in_k_Group.cpp.s
-
-main.o: main.cpp.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
+.PHONY : 21-40/28_Implement_Strstr.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
-.PHONY : main.cpp.i
+21-40/28_Implement_Strstr.cpp.i:
+	$(MAKE) -f CMakeFiles/Q28.dir/build.make CMakeFiles/Q28.dir/21-40/28_Implement_Strstr.cpp.i
+.PHONY : 21-40/28_Implement_Strstr.cpp.i
 
-main.s: main.cpp.s
+21-40/28_Implement_Strstr.s: 21-40/28_Implement_Strstr.cpp.s
 
-.PHONY : main.s
+.PHONY : 21-40/28_Implement_Strstr.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
-.PHONY : main.cpp.s
+21-40/28_Implement_Strstr.cpp.s:
+	$(MAKE) -f CMakeFiles/Q28.dir/build.make CMakeFiles/Q28.dir/21-40/28_Implement_Strstr.cpp.s
+.PHONY : 21-40/28_Implement_Strstr.cpp.s
 
 # Help Target
 help:
@@ -196,16 +156,12 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
-	@echo "... main"
 	@echo "... rebuild_cache"
-	@echo "... Q25"
-	@echo "... 21-40/25_Reverse_Nodes_in_k_Group.o"
-	@echo "... 21-40/25_Reverse_Nodes_in_k_Group.i"
-	@echo "... 21-40/25_Reverse_Nodes_in_k_Group.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... Q28"
+	@echo "... edit_cache"
+	@echo "... 21-40/28_Implement_Strstr.o"
+	@echo "... 21-40/28_Implement_Strstr.i"
+	@echo "... 21-40/28_Implement_Strstr.s"
 .PHONY : help
 
 
