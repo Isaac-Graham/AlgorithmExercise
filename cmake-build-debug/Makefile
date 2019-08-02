@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Q28
+# Target rules for targets named Q31
 
 # Build rule for target.
-Q28: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Q28
-.PHONY : Q28
+Q31: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Q31
+.PHONY : Q31
 
 # fast build rule for target.
-Q28/fast:
-	$(MAKE) -f CMakeFiles/Q28.dir/build.make CMakeFiles/Q28.dir/build
-.PHONY : Q28/fast
+Q31/fast:
+	$(MAKE) -f CMakeFiles/Q31.dir/build.make CMakeFiles/Q31.dir/build
+.PHONY : Q31/fast
 
-21-40/28_Implement_Strstr.o: 21-40/28_Implement_Strstr.cpp.o
+21-40/31_Next_Permutation.o: 21-40/31_Next_Permutation.cpp.o
 
-.PHONY : 21-40/28_Implement_Strstr.o
+.PHONY : 21-40/31_Next_Permutation.o
 
 # target to build an object file
-21-40/28_Implement_Strstr.cpp.o:
-	$(MAKE) -f CMakeFiles/Q28.dir/build.make CMakeFiles/Q28.dir/21-40/28_Implement_Strstr.cpp.o
-.PHONY : 21-40/28_Implement_Strstr.cpp.o
+21-40/31_Next_Permutation.cpp.o:
+	$(MAKE) -f CMakeFiles/Q31.dir/build.make CMakeFiles/Q31.dir/21-40/31_Next_Permutation.cpp.o
+.PHONY : 21-40/31_Next_Permutation.cpp.o
 
-21-40/28_Implement_Strstr.i: 21-40/28_Implement_Strstr.cpp.i
+21-40/31_Next_Permutation.i: 21-40/31_Next_Permutation.cpp.i
 
-.PHONY : 21-40/28_Implement_Strstr.i
+.PHONY : 21-40/31_Next_Permutation.i
 
 # target to preprocess a source file
-21-40/28_Implement_Strstr.cpp.i:
-	$(MAKE) -f CMakeFiles/Q28.dir/build.make CMakeFiles/Q28.dir/21-40/28_Implement_Strstr.cpp.i
-.PHONY : 21-40/28_Implement_Strstr.cpp.i
+21-40/31_Next_Permutation.cpp.i:
+	$(MAKE) -f CMakeFiles/Q31.dir/build.make CMakeFiles/Q31.dir/21-40/31_Next_Permutation.cpp.i
+.PHONY : 21-40/31_Next_Permutation.cpp.i
 
-21-40/28_Implement_Strstr.s: 21-40/28_Implement_Strstr.cpp.s
+21-40/31_Next_Permutation.s: 21-40/31_Next_Permutation.cpp.s
 
-.PHONY : 21-40/28_Implement_Strstr.s
+.PHONY : 21-40/31_Next_Permutation.s
 
 # target to generate assembly for a file
-21-40/28_Implement_Strstr.cpp.s:
-	$(MAKE) -f CMakeFiles/Q28.dir/build.make CMakeFiles/Q28.dir/21-40/28_Implement_Strstr.cpp.s
-.PHONY : 21-40/28_Implement_Strstr.cpp.s
+21-40/31_Next_Permutation.cpp.s:
+	$(MAKE) -f CMakeFiles/Q31.dir/build.make CMakeFiles/Q31.dir/21-40/31_Next_Permutation.cpp.s
+.PHONY : 21-40/31_Next_Permutation.cpp.s
 
 # Help Target
 help:
@@ -157,11 +157,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... Q28"
+	@echo "... Q31"
 	@echo "... edit_cache"
-	@echo "... 21-40/28_Implement_Strstr.o"
-	@echo "... 21-40/28_Implement_Strstr.i"
-	@echo "... 21-40/28_Implement_Strstr.s"
+	@echo "... 21-40/31_Next_Permutation.o"
+	@echo "... 21-40/31_Next_Permutation.i"
+	@echo "... 21-40/31_Next_Permutation.s"
 .PHONY : help
 
 
