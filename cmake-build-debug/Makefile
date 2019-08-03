@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Q31
+# Target rules for targets named Q34
 
 # Build rule for target.
-Q31: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Q31
-.PHONY : Q31
+Q34: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Q34
+.PHONY : Q34
 
 # fast build rule for target.
-Q31/fast:
-	$(MAKE) -f CMakeFiles/Q31.dir/build.make CMakeFiles/Q31.dir/build
-.PHONY : Q31/fast
+Q34/fast:
+	$(MAKE) -f CMakeFiles/Q34.dir/build.make CMakeFiles/Q34.dir/build
+.PHONY : Q34/fast
 
-21-40/31_Next_Permutation.o: 21-40/31_Next_Permutation.cpp.o
+21-40/34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.o: 21-40/34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.cpp.o
 
-.PHONY : 21-40/31_Next_Permutation.o
+.PHONY : 21-40/34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.o
 
 # target to build an object file
-21-40/31_Next_Permutation.cpp.o:
-	$(MAKE) -f CMakeFiles/Q31.dir/build.make CMakeFiles/Q31.dir/21-40/31_Next_Permutation.cpp.o
-.PHONY : 21-40/31_Next_Permutation.cpp.o
+21-40/34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.cpp.o:
+	$(MAKE) -f CMakeFiles/Q34.dir/build.make CMakeFiles/Q34.dir/21-40/34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.cpp.o
+.PHONY : 21-40/34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.cpp.o
 
-21-40/31_Next_Permutation.i: 21-40/31_Next_Permutation.cpp.i
+21-40/34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.i: 21-40/34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.cpp.i
 
-.PHONY : 21-40/31_Next_Permutation.i
+.PHONY : 21-40/34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.i
 
 # target to preprocess a source file
-21-40/31_Next_Permutation.cpp.i:
-	$(MAKE) -f CMakeFiles/Q31.dir/build.make CMakeFiles/Q31.dir/21-40/31_Next_Permutation.cpp.i
-.PHONY : 21-40/31_Next_Permutation.cpp.i
+21-40/34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.cpp.i:
+	$(MAKE) -f CMakeFiles/Q34.dir/build.make CMakeFiles/Q34.dir/21-40/34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.cpp.i
+.PHONY : 21-40/34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.cpp.i
 
-21-40/31_Next_Permutation.s: 21-40/31_Next_Permutation.cpp.s
+21-40/34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.s: 21-40/34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.cpp.s
 
-.PHONY : 21-40/31_Next_Permutation.s
+.PHONY : 21-40/34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.s
 
 # target to generate assembly for a file
-21-40/31_Next_Permutation.cpp.s:
-	$(MAKE) -f CMakeFiles/Q31.dir/build.make CMakeFiles/Q31.dir/21-40/31_Next_Permutation.cpp.s
-.PHONY : 21-40/31_Next_Permutation.cpp.s
+21-40/34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.cpp.s:
+	$(MAKE) -f CMakeFiles/Q34.dir/build.make CMakeFiles/Q34.dir/21-40/34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.cpp.s
+.PHONY : 21-40/34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.cpp.s
 
 # Help Target
 help:
@@ -157,11 +157,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... Q31"
+	@echo "... Q34"
 	@echo "... edit_cache"
-	@echo "... 21-40/31_Next_Permutation.o"
-	@echo "... 21-40/31_Next_Permutation.i"
-	@echo "... 21-40/31_Next_Permutation.s"
+	@echo "... 21-40/34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.o"
+	@echo "... 21-40/34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.i"
+	@echo "... 21-40/34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.s"
 .PHONY : help
 
 

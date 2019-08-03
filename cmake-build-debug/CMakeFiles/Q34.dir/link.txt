@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Q34.dir/21-40/34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.cpp.o  -o Q34.exe -Wl,--out-implib,libQ34.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

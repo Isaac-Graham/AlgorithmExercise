@@ -65,39 +65,39 @@ CMAKE_SOURCE_DIR = /cygdrive/e/Code/Leetcode
 CMAKE_BINARY_DIR = /cygdrive/e/Code/Leetcode/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/Q31.dir
+# Target rules for target CMakeFiles/Q34.dir
 
 # All Build rule for target.
-CMakeFiles/Q31.dir/all:
-	$(MAKE) -f CMakeFiles/Q31.dir/build.make CMakeFiles/Q31.dir/depend
-	$(MAKE) -f CMakeFiles/Q31.dir/build.make CMakeFiles/Q31.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/e/Code/Leetcode/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Q31"
-.PHONY : CMakeFiles/Q31.dir/all
+CMakeFiles/Q34.dir/all:
+	$(MAKE) -f CMakeFiles/Q34.dir/build.make CMakeFiles/Q34.dir/depend
+	$(MAKE) -f CMakeFiles/Q34.dir/build.make CMakeFiles/Q34.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/e/Code/Leetcode/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Q34"
+.PHONY : CMakeFiles/Q34.dir/all
 
 # Include target in all.
-all: CMakeFiles/Q31.dir/all
+all: CMakeFiles/Q34.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Q31.dir/rule: cmake_check_build_system
+CMakeFiles/Q34.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/e/Code/Leetcode/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Q31.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Q34.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/e/Code/Leetcode/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Q31.dir/rule
+.PHONY : CMakeFiles/Q34.dir/rule
 
 # Convenience name for target.
-Q31: CMakeFiles/Q31.dir/rule
+Q34: CMakeFiles/Q34.dir/rule
 
-.PHONY : Q31
-
-# clean rule for target.
-CMakeFiles/Q31.dir/clean:
-	$(MAKE) -f CMakeFiles/Q31.dir/build.make CMakeFiles/Q31.dir/clean
-.PHONY : CMakeFiles/Q31.dir/clean
+.PHONY : Q34
 
 # clean rule for target.
-clean: CMakeFiles/Q31.dir/clean
+CMakeFiles/Q34.dir/clean:
+	$(MAKE) -f CMakeFiles/Q34.dir/build.make CMakeFiles/Q34.dir/clean
+.PHONY : CMakeFiles/Q34.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Q34.dir/clean
 
 .PHONY : clean
 

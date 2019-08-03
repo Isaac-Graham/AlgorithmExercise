@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Q32.dir/21-40/32_Longest_Valid_Parentheses.cpp.o  -o Q32.exe -Wl,--out-implib,libQ32.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
