@@ -52,15 +52,15 @@ public:
 };
 
 // 空间会浪费，并且可能造成BUG
-void remove(stack<Node *> &s, Node *n) {
+void remove(stack<Node *> &s, Node *n, Node *answer_node) {
     if (n->down != nullptr)
-        remove(s, n->down);
+        remove(s, n->down, answer_node);
     if (n->right != nullptr)
-        remove(s, n->right);
-    if (n->col->left->right == n->col) {
-        s.push(n->col);
-        n->col->left->right = n->col->right;
-    }
+        remove(s, n->right, answer_node);
+//    if (n->col == answer_node->col && n->col->left->right == n->col) {
+//        s.push(n->col);
+//        n->col->left->right = n->col->right;
+//    }
     s.push(n);
     if (n->left != nullptr)
         n->left->right = n->right;
@@ -70,6 +70,21 @@ void remove(stack<Node *> &s, Node *n) {
         n->up->down = n->down;
     if (n->down != nullptr)
         n->down->up = n->up;
+}
+
+void remove_col(stack<Node *> &s, Node *n) {
+    if (n->right != nullptr)
+        remove_col(s, n->right);
+    s.push(n->right);
+    if (n->left != nullptr)
+        n->left->right = n->right;
+    if (n->right != nullptr)
+        n->right->left = n->left;
+//    if (n->up != nullptr)
+//        n->up->down = n->down;
+//    if (n->down != nullptr)
+//        n->down->up = n->up;
+
 }
 
 int main() {
@@ -121,11 +136,19 @@ int main() {
         cout << 1 << endl;
         Node *col = head->right;
         Node *node = col;
-        cout << node->name << endl;
+        Node *test_node = head;
+        while ((test_node = test_node->right) != nullptr) {
+            Node *n = test_node;
+            cout << "Col: " << n->name << " ";
+            while ((n = n->down) != nullptr) {
+                cout << n->name << " ";
+            }
+            cout << endl;
+        }
 //        cout << node->down->name << endl;
         if (node->down == nullptr) {
             // 回溯
-            cout << "最后一次" << endl;
+            cout << "开始回溯" << endl;
             cout << delete_node.size() << endl;
             cout << answer_node.size() << endl;
             while (delete_node.top() != answer_node.top()) {
@@ -145,10 +168,21 @@ int main() {
             answer_node.pop();
             delete_node.pop();
         }
-        while ((node = node->down) != nullptr) {
-            cout << 3 << endl;
+        if ((node = node->down) != nullptr) {
+            cout << "开始删除节点" << endl;
+            cout << node->name << endl;
             answer_node.push(node);
-            remove(delete_node, node);
+            Node *n = node;
+//            while (n != nullptr && n->col->left->right == n->col) {
+//                cout << "被删除的Col节点: " << n->col->name << endl;
+//                n->col->left->right = n->col->right;
+//                n = n->right;
+//            }
+            cout << n->name << endl;
+            remove_col(delete_node, n);
+            cout << n->name << endl;
+
+            remove(delete_node, node, node);
         }
     }
 

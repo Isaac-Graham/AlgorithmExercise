@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Q37.dir/21-40/Q37_Sudoku_Solver.cpp.o"
+  "CMakeFiles/Q37.dir/21-40/37_Sudoku_Solver.cpp.o"
   "Q37.pdb"
   "Q37.exe"
   "libQ37.dll.a"

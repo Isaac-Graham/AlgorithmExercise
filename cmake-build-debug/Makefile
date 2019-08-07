@@ -123,32 +123,32 @@ Q37/fast:
 	$(MAKE) -f CMakeFiles/Q37.dir/build.make CMakeFiles/Q37.dir/build
 .PHONY : Q37/fast
 
-21-40/Q37_Sudoku_Solver.o: 21-40/Q37_Sudoku_Solver.cpp.o
+21-40/37_Sudoku_Solver.o: 21-40/37_Sudoku_Solver.cpp.o
 
-.PHONY : 21-40/Q37_Sudoku_Solver.o
+.PHONY : 21-40/37_Sudoku_Solver.o
 
 # target to build an object file
-21-40/Q37_Sudoku_Solver.cpp.o:
-	$(MAKE) -f CMakeFiles/Q37.dir/build.make CMakeFiles/Q37.dir/21-40/Q37_Sudoku_Solver.cpp.o
-.PHONY : 21-40/Q37_Sudoku_Solver.cpp.o
+21-40/37_Sudoku_Solver.cpp.o:
+	$(MAKE) -f CMakeFiles/Q37.dir/build.make CMakeFiles/Q37.dir/21-40/37_Sudoku_Solver.cpp.o
+.PHONY : 21-40/37_Sudoku_Solver.cpp.o
 
-21-40/Q37_Sudoku_Solver.i: 21-40/Q37_Sudoku_Solver.cpp.i
+21-40/37_Sudoku_Solver.i: 21-40/37_Sudoku_Solver.cpp.i
 
-.PHONY : 21-40/Q37_Sudoku_Solver.i
+.PHONY : 21-40/37_Sudoku_Solver.i
 
 # target to preprocess a source file
-21-40/Q37_Sudoku_Solver.cpp.i:
-	$(MAKE) -f CMakeFiles/Q37.dir/build.make CMakeFiles/Q37.dir/21-40/Q37_Sudoku_Solver.cpp.i
-.PHONY : 21-40/Q37_Sudoku_Solver.cpp.i
+21-40/37_Sudoku_Solver.cpp.i:
+	$(MAKE) -f CMakeFiles/Q37.dir/build.make CMakeFiles/Q37.dir/21-40/37_Sudoku_Solver.cpp.i
+.PHONY : 21-40/37_Sudoku_Solver.cpp.i
 
-21-40/Q37_Sudoku_Solver.s: 21-40/Q37_Sudoku_Solver.cpp.s
+21-40/37_Sudoku_Solver.s: 21-40/37_Sudoku_Solver.cpp.s
 
-.PHONY : 21-40/Q37_Sudoku_Solver.s
+.PHONY : 21-40/37_Sudoku_Solver.s
 
 # target to generate assembly for a file
-21-40/Q37_Sudoku_Solver.cpp.s:
-	$(MAKE) -f CMakeFiles/Q37.dir/build.make CMakeFiles/Q37.dir/21-40/Q37_Sudoku_Solver.cpp.s
-.PHONY : 21-40/Q37_Sudoku_Solver.cpp.s
+21-40/37_Sudoku_Solver.cpp.s:
+	$(MAKE) -f CMakeFiles/Q37.dir/build.make CMakeFiles/Q37.dir/21-40/37_Sudoku_Solver.cpp.s
+.PHONY : 21-40/37_Sudoku_Solver.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Q37"
 	@echo "... edit_cache"
-	@echo "... 21-40/Q37_Sudoku_Solver.o"
-	@echo "... 21-40/Q37_Sudoku_Solver.i"
-	@echo "... 21-40/Q37_Sudoku_Solver.s"
+	@echo "... 21-40/37_Sudoku_Solver.o"
+	@echo "... 21-40/37_Sudoku_Solver.i"
+	@echo "... 21-40/37_Sudoku_Solver.s"
 .PHONY : help
 
 

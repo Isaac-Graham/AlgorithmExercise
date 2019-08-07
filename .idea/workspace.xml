@@ -15,16 +15,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35ce4987-6599-4446-b3c7-cdb7572393ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/21-40/35_Search_Insert_Position.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21-40/36_Valid_Sudoku.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21-40/Q37_Sudoku_Solver.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Leetcode.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Leetcode.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-40/37_Sudoku_Solver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/21-40/37_Sudoku_Solver.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Q37.dir/21-40/Q37_Sudoku_Solver.cpp.o" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,7 +48,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="41852" />
+          <entry key="cpp" value="42538" />
           <entry key="txt" value="505" />
         </counts>
       </usages-collector>
@@ -64,7 +56,7 @@
         <counts>
           <entry key="CMakeLists.txt" value="505" />
           <entry key="Doxygen file" value="76" />
-          <entry key="ObjectiveC" value="41776" />
+          <entry key="ObjectiveC" value="42462" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -92,10 +84,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/21-40/Q37_Sudoku_Solver.cpp">
+        <entry file="file://$PROJECT_DIR$/21-40/37_Sudoku_Solver.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="96" column="49" selection-start-line="96" selection-start-column="49" selection-end-line="96" selection-end-column="49" />
+            <state relative-caret-position="329">
+              <caret line="183" lean-forward="true" selection-start-line="183" selection-end-line="183" />
             </state>
           </provider>
         </entry>
@@ -165,6 +157,7 @@
         <option value="$PROJECT_DIR$/21-40/36_Valid_Sudoku.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/21-40/Q37_Sudoku_Solver.cpp" />
+        <option value="$PROJECT_DIR$/21-40/37_Sudoku_Solver.cpp" />
       </list>
     </option>
   </component>
@@ -270,18 +263,18 @@
       <workItem from="1565156623148" duration="1589000" />
       <workItem from="1565159764382" duration="3413000" />
       <workItem from="1565164630373" duration="5279000" />
-      <workItem from="1565171504445" duration="1969000" />
+      <workItem from="1565171504445" duration="3559000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138234000" />
+    <option name="totallyTimeSpent" value="139824000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49649122" weight="0.2177243" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49649122" weight="0.21748401" />
       <window_info id="Structure" order="1" sideWeight="0.50350875" side_tool="true" weight="0.11567164" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -475,7 +468,7 @@
           <option name="timeStamp" value="66" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/21-40/Q37_Sudoku_Solver.cpp</url>
+          <url>file://$PROJECT_DIR$/21-40/37_Sudoku_Solver.cpp</url>
           <line>119</line>
           <option name="timeStamp" value="67" />
         </line-breakpoint>
@@ -774,10 +767,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/21-40/Q37_Sudoku_Solver.cpp">
+    <entry file="file://$PROJECT_DIR$/21-40/37_Sudoku_Solver.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="96" column="49" selection-start-line="96" selection-start-column="49" selection-end-line="96" selection-end-column="49" />
+        <state relative-caret-position="329">
+          <caret line="183" lean-forward="true" selection-start-line="183" selection-end-line="183" />
         </state>
       </provider>
     </entry>

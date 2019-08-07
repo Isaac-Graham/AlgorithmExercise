@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/cygdrive/e/Code/Leetcode/21-40/Q37_Sudoku_Solver.cpp" "/cygdrive/e/Code/Leetcode/cmake-build-debug/CMakeFiles/Q37.dir/21-40/Q37_Sudoku_Solver.cpp.o"
+  "/cygdrive/e/Code/Leetcode/21-40/37_Sudoku_Solver.cpp" "/cygdrive/e/Code/Leetcode/cmake-build-debug/CMakeFiles/Q37.dir/21-40/37_Sudoku_Solver.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

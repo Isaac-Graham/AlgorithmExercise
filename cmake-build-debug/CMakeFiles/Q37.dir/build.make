@@ -57,27 +57,27 @@ include CMakeFiles/Q37.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Q37.dir/flags.make
 
-CMakeFiles/Q37.dir/21-40/Q37_Sudoku_Solver.cpp.o: CMakeFiles/Q37.dir/flags.make
-CMakeFiles/Q37.dir/21-40/Q37_Sudoku_Solver.cpp.o: ../21-40/Q37_Sudoku_Solver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/e/Code/Leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Q37.dir/21-40/Q37_Sudoku_Solver.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Q37.dir/21-40/Q37_Sudoku_Solver.cpp.o -c /cygdrive/e/Code/Leetcode/21-40/Q37_Sudoku_Solver.cpp
+CMakeFiles/Q37.dir/21-40/37_Sudoku_Solver.cpp.o: CMakeFiles/Q37.dir/flags.make
+CMakeFiles/Q37.dir/21-40/37_Sudoku_Solver.cpp.o: ../21-40/37_Sudoku_Solver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/e/Code/Leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Q37.dir/21-40/37_Sudoku_Solver.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Q37.dir/21-40/37_Sudoku_Solver.cpp.o -c /cygdrive/e/Code/Leetcode/21-40/37_Sudoku_Solver.cpp
 
-CMakeFiles/Q37.dir/21-40/Q37_Sudoku_Solver.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Q37.dir/21-40/Q37_Sudoku_Solver.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/e/Code/Leetcode/21-40/Q37_Sudoku_Solver.cpp > CMakeFiles/Q37.dir/21-40/Q37_Sudoku_Solver.cpp.i
+CMakeFiles/Q37.dir/21-40/37_Sudoku_Solver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Q37.dir/21-40/37_Sudoku_Solver.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/e/Code/Leetcode/21-40/37_Sudoku_Solver.cpp > CMakeFiles/Q37.dir/21-40/37_Sudoku_Solver.cpp.i
 
-CMakeFiles/Q37.dir/21-40/Q37_Sudoku_Solver.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Q37.dir/21-40/Q37_Sudoku_Solver.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/e/Code/Leetcode/21-40/Q37_Sudoku_Solver.cpp -o CMakeFiles/Q37.dir/21-40/Q37_Sudoku_Solver.cpp.s
+CMakeFiles/Q37.dir/21-40/37_Sudoku_Solver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Q37.dir/21-40/37_Sudoku_Solver.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/e/Code/Leetcode/21-40/37_Sudoku_Solver.cpp -o CMakeFiles/Q37.dir/21-40/37_Sudoku_Solver.cpp.s
 
 # Object files for target Q37
 Q37_OBJECTS = \
-"CMakeFiles/Q37.dir/21-40/Q37_Sudoku_Solver.cpp.o"
+"CMakeFiles/Q37.dir/21-40/37_Sudoku_Solver.cpp.o"
 
 # External object files for target Q37
 Q37_EXTERNAL_OBJECTS =
 
-Q37.exe: CMakeFiles/Q37.dir/21-40/Q37_Sudoku_Solver.cpp.o
+Q37.exe: CMakeFiles/Q37.dir/21-40/37_Sudoku_Solver.cpp.o
 Q37.exe: CMakeFiles/Q37.dir/build.make
 Q37.exe: CMakeFiles/Q37.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/e/Code/Leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Q37.exe"
