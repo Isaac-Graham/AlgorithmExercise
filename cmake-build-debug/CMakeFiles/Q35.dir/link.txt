@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Q35.dir/21-40/35_Search_Insert_Position.cpp.o  -o Q35.exe -Wl,--out-implib,libQ35.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

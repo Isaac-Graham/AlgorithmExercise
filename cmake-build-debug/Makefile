@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Q34
+# Target rules for targets named Q37
 
 # Build rule for target.
-Q34: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Q34
-.PHONY : Q34
+Q37: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Q37
+.PHONY : Q37
 
 # fast build rule for target.
-Q34/fast:
-	$(MAKE) -f CMakeFiles/Q34.dir/build.make CMakeFiles/Q34.dir/build
-.PHONY : Q34/fast
+Q37/fast:
+	$(MAKE) -f CMakeFiles/Q37.dir/build.make CMakeFiles/Q37.dir/build
+.PHONY : Q37/fast
 
-21-40/34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.o: 21-40/34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.cpp.o
+21-40/Q37_Sudoku_Solver.o: 21-40/Q37_Sudoku_Solver.cpp.o
 
-.PHONY : 21-40/34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.o
+.PHONY : 21-40/Q37_Sudoku_Solver.o
 
 # target to build an object file
-21-40/34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.cpp.o:
-	$(MAKE) -f CMakeFiles/Q34.dir/build.make CMakeFiles/Q34.dir/21-40/34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.cpp.o
-.PHONY : 21-40/34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.cpp.o
+21-40/Q37_Sudoku_Solver.cpp.o:
+	$(MAKE) -f CMakeFiles/Q37.dir/build.make CMakeFiles/Q37.dir/21-40/Q37_Sudoku_Solver.cpp.o
+.PHONY : 21-40/Q37_Sudoku_Solver.cpp.o
 
-21-40/34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.i: 21-40/34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.cpp.i
+21-40/Q37_Sudoku_Solver.i: 21-40/Q37_Sudoku_Solver.cpp.i
 
-.PHONY : 21-40/34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.i
+.PHONY : 21-40/Q37_Sudoku_Solver.i
 
 # target to preprocess a source file
-21-40/34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.cpp.i:
-	$(MAKE) -f CMakeFiles/Q34.dir/build.make CMakeFiles/Q34.dir/21-40/34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.cpp.i
-.PHONY : 21-40/34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.cpp.i
+21-40/Q37_Sudoku_Solver.cpp.i:
+	$(MAKE) -f CMakeFiles/Q37.dir/build.make CMakeFiles/Q37.dir/21-40/Q37_Sudoku_Solver.cpp.i
+.PHONY : 21-40/Q37_Sudoku_Solver.cpp.i
 
-21-40/34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.s: 21-40/34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.cpp.s
+21-40/Q37_Sudoku_Solver.s: 21-40/Q37_Sudoku_Solver.cpp.s
 
-.PHONY : 21-40/34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.s
+.PHONY : 21-40/Q37_Sudoku_Solver.s
 
 # target to generate assembly for a file
-21-40/34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.cpp.s:
-	$(MAKE) -f CMakeFiles/Q34.dir/build.make CMakeFiles/Q34.dir/21-40/34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.cpp.s
-.PHONY : 21-40/34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.cpp.s
+21-40/Q37_Sudoku_Solver.cpp.s:
+	$(MAKE) -f CMakeFiles/Q37.dir/build.make CMakeFiles/Q37.dir/21-40/Q37_Sudoku_Solver.cpp.s
+.PHONY : 21-40/Q37_Sudoku_Solver.cpp.s
 
 # Help Target
 help:
@@ -157,11 +157,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... Q34"
+	@echo "... Q37"
 	@echo "... edit_cache"
-	@echo "... 21-40/34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.o"
-	@echo "... 21-40/34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.i"
-	@echo "... 21-40/34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.s"
+	@echo "... 21-40/Q37_Sudoku_Solver.o"
+	@echo "... 21-40/Q37_Sudoku_Solver.i"
+	@echo "... 21-40/Q37_Sudoku_Solver.s"
 .PHONY : help
 
 
