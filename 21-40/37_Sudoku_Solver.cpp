@@ -53,21 +53,44 @@ public:
 
 // 空间会浪费，并且可能造成BUG
 void remove(stack<Node *> &s, Node *n, Node *answer_node) {
-    if (n->down != nullptr)
+    static vector<bool> visited(17);
+    int a = n->name;
+    visited[a] = true;;
+    cout << "Removed node:  " << a << endl;
+    // if(n->up != nullptr && n-> up-> name % 100 != 0){
+    //     remove(s, n->up, answer_node);
+    // }
+    // if(n->down != nullptr){
+    //     remove(s, n->down, answer_node);
+    // }
+    if (n->down != nullptr && !visited[n->down->name]&& n -> down -> name % 100 != 0)
         remove(s, n->down, answer_node);
-    if (n->right != nullptr)
+    if (n->right != nullptr&& !visited[n->right->name]&& n -> right -> name % 100 != 0)
         remove(s, n->right, answer_node);
-//    if (n->col == answer_node->col && n->col->left->right == n->col) {
-//        s.push(n->col);
-//        n->col->left->right = n->col->right;
-//    }
+    if (n-> up != nullptr && !visited[n->up->name] && n -> up -> name % 100 != 0)
+        remove(s, n-> up, answer_node);
+    if (n->left !=nullptr && !visited[n->left->name]&& n -> left -> name % 100 != 0)
+        remove(s, n->left, answer_node);
+    if (n->col == answer_node->col && n->col->left->right == n->col) {
+       s.push(n->col);
+       n->col->left->right = n->col->right;
+   }
     s.push(n);
     if (n->left != nullptr)
         n->left->right = n->right;
     if (n->right != nullptr)
         n->right->left = n->left;
+    // if(n->name == 2){
+    //     cout <<"n==2  " << n->up->name << endl;
+    // }
     if (n->up != nullptr)
         n->up->down = n->down;
+    // if (n->name == 2){
+    //     if(n->up->down != nullptr)
+    //         cout << "n==2  " <<n->up->down->name;
+    //     else
+    //         cout << "n==2 down is null " << endl;
+    // }
     if (n->down != nullptr)
         n->down->up = n->up;
 }
@@ -75,11 +98,11 @@ void remove(stack<Node *> &s, Node *n, Node *answer_node) {
 void remove_col(stack<Node *> &s, Node *n) {
     if (n->right != nullptr)
         remove_col(s, n->right);
-    s.push(n->right);
-    if (n->left != nullptr)
-        n->left->right = n->right;
-    if (n->right != nullptr)
-        n->right->left = n->left;
+    s.push(n->col);
+    if (n->col->left != nullptr)
+        n->col->left->right = n->col->right;
+    if (n->col->right != nullptr)
+        n->col->right->left = n->col->left;
 //    if (n->up != nullptr)
 //        n->up->down = n->down;
 //    if (n->down != nullptr)
@@ -137,18 +160,18 @@ int main() {
         Node *col = head->right;
         Node *node = col;
         Node *test_node = head;
-        while ((test_node = test_node->right) != nullptr) {
-            Node *n = test_node;
-            cout << "Col: " << n->name << " ";
-            while ((n = n->down) != nullptr) {
-                cout << n->name << " ";
-            }
-            cout << endl;
-        }
-//        cout << node->down->name << endl;
+        // while ((test_node = test_node->right) != nullptr) {
+        //     Node *n = test_node;
+        //     cout << "Col: " << n->name << " ";
+        //     while ((n = n->down) != nullptr) {
+        //         cout << n->name << " ";
+        //     }
+        //     cout << endl;
+        // }
+       cout << "Before Call Back: " << node->down->name << endl;
         if (node->down == nullptr) {
             // 回溯
-            cout << "开始回溯" << endl;
+            cout << "Begin to call back" << endl;
             cout << delete_node.size() << endl;
             cout << answer_node.size() << endl;
             while (delete_node.top() != answer_node.top()) {
@@ -169,8 +192,8 @@ int main() {
             delete_node.pop();
         }
         if ((node = node->down) != nullptr) {
-            cout << "开始删除节点" << endl;
-            cout << node->name << endl;
+            cout << "Begin to delete nodes: " << endl;
+            cout << "answer note: " << node->name << endl;
             answer_node.push(node);
             Node *n = node;
 //            while (n != nullptr && n->col->left->right == n->col) {
@@ -178,17 +201,21 @@ int main() {
 //                n->col->left->right = n->col->right;
 //                n = n->right;
 //            }
-            cout << n->name << endl;
+            // cout << n->name << endl;
             remove_col(delete_node, n);
-            cout << n->name << endl;
+            // cout << n->name << endl;
 
             remove(delete_node, node, node);
         }
     }
+    cout << endl;
 
     while (!answer_node.empty()) {
         cout << answer_node.top()->name << " ";
         answer_node.pop();
     }
+    cout << endl;
+
+    cout << "end" << endl;
 
 }
