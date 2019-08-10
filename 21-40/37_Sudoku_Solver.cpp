@@ -1,6 +1,12 @@
 //
 // Created by Isaac Graham on 8/7/2019.
 //
+
+/**
+ * 回溯法
+ * 刺激
+ * 详情看leetcode题解
+ */
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -62,20 +68,13 @@ public:
             col_visit[c][num] = false;
             block_visit[blockNum(r, c)][num] = false;
             if (num < 9) {
-                cout << "记录一下： " << endl;
-                for (int i = 0; i < 9; i++) {
-                    for (int j = 0; j < 9; j++) {
-                        cout << v[i][j] << " ";
-                    }
-                    cout << endl;
-                }
                 return;
             }
             v[r][c] = 0;
         }
         r--;
-        for (c = 8; c >= 0; c--) {
-            for (; r >= 0; r--) {
+        for (; r >= 0; r--) {
+            for (c = 8; c >= 0; c--) {
                 int num = v[r][c];
                 if (num < 0)
                     continue;
@@ -83,13 +82,6 @@ public:
                 col_visit[c][num] = false;
                 block_visit[blockNum(r, c)][num] = false;
                 if (num < 9) {
-                    cout << "记录一下： " << endl;
-                    for (int i = 0; i < 9; i++) {
-                        for (int j = 0; j < 9; j++) {
-                            cout << v[i][j] << " ";
-                        }
-                        cout << endl;
-                    }
                     return;
                 }
                 v[r][c] = 0;
@@ -139,11 +131,11 @@ public:
             }
             for (int i = 0; i < 9; i++) {
                 for (int j = 0; j < 9; j++) {
-                    cout << v[i][j] << " ";
+                    if (v[i][j] < 0)
+                        continue;
+                    board[i][j] = v[i][j] + '0';
                 }
-                cout << endl;
             }
-            cout << "-----------------------------" << endl;
         }
     }
 
@@ -163,7 +155,7 @@ int main() {
 //            {'.', '.', '.', '.', '8', '.', '.', '7', '9'}
 //    };
     vector<vector<char>> board = {
-            {'5', '3', '4', '6', '7', '8', '1', '9', '2'},
+            {'5', '3', '4', '6', '7', '8', '9', '1', '2'},
             {'6', '7', '2', '1', '9', '5', '.', '.', '.'},
             {'.', '9', '8', '.', '.', '.', '.', '6', '.'},
             {'8', '.', '.', '.', '6', '.', '.', '.', '3'},
@@ -176,7 +168,10 @@ int main() {
     s->solveSudoku(board);
     for (int i = 0; i < 9; i++) {
         for (int j = 0; j < 9; j++) {
-            cout << board[i][j] << " ";
+            if (board[i][j] < 0)
+                cout << "  ";
+            else
+                cout << board[i][j] << " ";
         }
         cout << endl;
     }

@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Q37
+# Target rules for targets named Q38
 
 # Build rule for target.
-Q37: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Q37
-.PHONY : Q37
+Q38: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Q38
+.PHONY : Q38
 
 # fast build rule for target.
-Q37/fast:
-	$(MAKE) -f CMakeFiles/Q37.dir/build.make CMakeFiles/Q37.dir/build
-.PHONY : Q37/fast
+Q38/fast:
+	$(MAKE) -f CMakeFiles/Q38.dir/build.make CMakeFiles/Q38.dir/build
+.PHONY : Q38/fast
 
-21-40/37_Sudoku_Solver.o: 21-40/37_Sudoku_Solver.cpp.o
+21-40/38_Count_and_Say.o: 21-40/38_Count_and_Say.cpp.o
 
-.PHONY : 21-40/37_Sudoku_Solver.o
+.PHONY : 21-40/38_Count_and_Say.o
 
 # target to build an object file
-21-40/37_Sudoku_Solver.cpp.o:
-	$(MAKE) -f CMakeFiles/Q37.dir/build.make CMakeFiles/Q37.dir/21-40/37_Sudoku_Solver.cpp.o
-.PHONY : 21-40/37_Sudoku_Solver.cpp.o
+21-40/38_Count_and_Say.cpp.o:
+	$(MAKE) -f CMakeFiles/Q38.dir/build.make CMakeFiles/Q38.dir/21-40/38_Count_and_Say.cpp.o
+.PHONY : 21-40/38_Count_and_Say.cpp.o
 
-21-40/37_Sudoku_Solver.i: 21-40/37_Sudoku_Solver.cpp.i
+21-40/38_Count_and_Say.i: 21-40/38_Count_and_Say.cpp.i
 
-.PHONY : 21-40/37_Sudoku_Solver.i
+.PHONY : 21-40/38_Count_and_Say.i
 
 # target to preprocess a source file
-21-40/37_Sudoku_Solver.cpp.i:
-	$(MAKE) -f CMakeFiles/Q37.dir/build.make CMakeFiles/Q37.dir/21-40/37_Sudoku_Solver.cpp.i
-.PHONY : 21-40/37_Sudoku_Solver.cpp.i
+21-40/38_Count_and_Say.cpp.i:
+	$(MAKE) -f CMakeFiles/Q38.dir/build.make CMakeFiles/Q38.dir/21-40/38_Count_and_Say.cpp.i
+.PHONY : 21-40/38_Count_and_Say.cpp.i
 
-21-40/37_Sudoku_Solver.s: 21-40/37_Sudoku_Solver.cpp.s
+21-40/38_Count_and_Say.s: 21-40/38_Count_and_Say.cpp.s
 
-.PHONY : 21-40/37_Sudoku_Solver.s
+.PHONY : 21-40/38_Count_and_Say.s
 
 # target to generate assembly for a file
-21-40/37_Sudoku_Solver.cpp.s:
-	$(MAKE) -f CMakeFiles/Q37.dir/build.make CMakeFiles/Q37.dir/21-40/37_Sudoku_Solver.cpp.s
-.PHONY : 21-40/37_Sudoku_Solver.cpp.s
+21-40/38_Count_and_Say.cpp.s:
+	$(MAKE) -f CMakeFiles/Q38.dir/build.make CMakeFiles/Q38.dir/21-40/38_Count_and_Say.cpp.s
+.PHONY : 21-40/38_Count_and_Say.cpp.s
 
 # Help Target
 help:
@@ -157,11 +157,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... Q37"
+	@echo "... Q38"
 	@echo "... edit_cache"
-	@echo "... 21-40/37_Sudoku_Solver.o"
-	@echo "... 21-40/37_Sudoku_Solver.i"
-	@echo "... 21-40/37_Sudoku_Solver.s"
+	@echo "... 21-40/38_Count_and_Say.o"
+	@echo "... 21-40/38_Count_and_Say.i"
+	@echo "... 21-40/38_Count_and_Say.s"
 .PHONY : help
 
 

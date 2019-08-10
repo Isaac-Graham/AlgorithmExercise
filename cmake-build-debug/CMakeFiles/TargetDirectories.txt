@@ -1,3 +1,3 @@
 /cygdrive/e/Code/Leetcode/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/cygdrive/e/Code/Leetcode/cmake-build-debug/CMakeFiles/Q37.dir
+/cygdrive/e/Code/Leetcode/cmake-build-debug/CMakeFiles/Q38.dir
 /cygdrive/e/Code/Leetcode/cmake-build-debug/CMakeFiles/edit_cache.dir
