@@ -5,7 +5,7 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="Leetcode" targetName="Q38" />
+      <config projectName="Leetcode" targetName="Q41" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -15,18 +15,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35ce4987-6599-4446-b3c7-cdb7572393ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/21-40/38_Count_and_Say.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/21-40/40_Combination_Sum_ii.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/41-60/41_first_Missing_Positive.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/21-40/37_Sudoku_Solver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/21-40/37_Sudoku_Solver.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-40/39_Combination_Sum.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/21-40/39_Combination_Sum.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Q37.dir/21-40/37_Sudoku_Solver.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Q37.dir/21-40/37_Sudoku_Solver.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Leetcode.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Leetcode.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Q37.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Q37.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Q37.exe.stackdump" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Q37.exe.stackdump" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,11 +39,11 @@
     <session id="-1704001573">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="21" />
+          <entry key="project.closed" value="23" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.13" value="2" />
-          <entry key="project.open.time.14" value="5" />
-          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.14" value="6" />
+          <entry key="project.open.time.15" value="3" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.22" value="2" />
@@ -55,69 +54,52 @@
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="25" />
+          <entry key="project.opened" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="47264" />
-          <entry key="txt" value="516" />
+          <entry key="cpp" value="48995" />
+          <entry key="txt" value="546" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="516" />
-          <entry key="Doxygen file" value="84" />
-          <entry key="ObjectiveC" value="47180" />
+          <entry key="CMakeLists.txt" value="546" />
+          <entry key="Doxygen file" value="88" />
+          <entry key="ObjectiveC" value="48907" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Q10 (disassembly)" value="1" />
           <entry key="Q30 (disassembly)" value="2" />
+          <entry key="Q40 (disassembly)" value="1" />
           <entry key="c" value="1" />
           <entry key="cc" value="1" />
-          <entry key="cpp" value="62" />
+          <entry key="cpp" value="67" />
           <entry key="h" value="12" />
           <entry key="iostream" value="4" />
           <entry key="map" value="1" />
-          <entry key="txt" value="32" />
+          <entry key="txt" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CMakeLists.txt" value="32" />
-          <entry key="Disassembly" value="3" />
-          <entry key="ObjectiveC" value="81" />
+          <entry key="CMakeLists.txt" value="35" />
+          <entry key="Disassembly" value="4" />
+          <entry key="ObjectiveC" value="86" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/21-40/37_Sudoku_Solver.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/21-40/38_Count_and_Say.cpp">
+        <entry file="file://$PROJECT_DIR$/41-60/41_first_Missing_Positive.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="52" column="4492" selection-start-line="52" selection-start-column="4492" selection-end-line="52" selection-end-column="4492" />
+            <state relative-caret-position="342">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -137,6 +119,7 @@
       <find>name</find>
       <find>row</find>
       <find>cout</find>
+      <find>vv</find>
     </findStrings>
     <replaceStrings>
       <replace>/* * zeros */</replace>
@@ -193,8 +176,11 @@
         <option value="$PROJECT_DIR$/21-40/Q37_Sudoku_Solver.cpp" />
         <option value="$PROJECT_DIR$/21-40/dancing_list.cpp" />
         <option value="$PROJECT_DIR$/21-40/37_Sudoku_Solver.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/21-40/38_Count_and_Say.cpp" />
+        <option value="$PROJECT_DIR$/21-40/39_Combination_Sum.cpp" />
+        <option value="$PROJECT_DIR$/21-40/Combination_Sum_ii.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/41-60/41_first_Missing_Positive.cpp" />
       </list>
     </option>
   </component>
@@ -214,6 +200,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,13 +211,12 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="21-40" type="462c0819:PsiDirectoryNode" />
+              <item name="41-60" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -252,20 +238,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Q38">
+  <component name="RunManager" selected="Application.Q41">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q38" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Leetcode" TARGET_NAME="Q38" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Leetcode" RUN_TARGET_NAME="Q38">
+    <configuration name="Q41" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Leetcode" TARGET_NAME="Q41" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Leetcode" RUN_TARGET_NAME="Q41">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Build All" />
-      <item itemvalue="Application.Q38" />
+      <item itemvalue="Application.Q41" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -303,31 +289,34 @@
       <workItem from="1565171504445" duration="14064000" />
       <workItem from="1565256171201" duration="13732000" />
       <workItem from="1565419636208" duration="3911000" />
+      <workItem from="1565528354060" duration="2080000" />
+      <workItem from="1565766008087" duration="4000" />
+      <workItem from="1566375582736" duration="6361000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167972000" />
+    <option name="totallyTimeSpent" value="176417000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49649122" visible="true" weight="0.18710022" />
-      <window_info id="Structure" order="1" sideWeight="0.50350875" side_tool="true" weight="0.11567164" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49649122" visible="true" weight="0.19349681" />
+      <window_info id="Structure" order="1" sideWeight="0.50350875" side_tool="true" weight="0.05597015" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.44802496" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.31794333" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43808532" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33718488" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.38877338" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32952183" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.38189387" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3298647" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="CMake" order="12" weight="0.32952183" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.32882413" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -515,13 +504,20 @@
           <line>113</line>
           <option name="timeStamp" value="108" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/21-40/39_Combination_Sum.cpp</url>
+          <line>21</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/21-40/40_Combination_Sum_ii.cpp</url>
+          <line>27</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1-20/3_Longest_Substring_Without_Repeating_Characters.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/1-20/4_Median_of_Two_Sorted_Arrays.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -825,6 +821,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/21-40/38_Count_and_Say.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="46" column="935" selection-start-line="46" selection-start-column="935" selection-end-line="46" selection-end-column="935" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/21-40/37_Sudoku_Solver.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -832,17 +835,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/21-40/39_Combination_Sum.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+        <state relative-caret-position="38">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/21-40/38_Count_and_Say.cpp">
+    <entry file="file://$PROJECT_DIR$/21-40/40_Combination_Sum_ii.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="52" column="4492" selection-start-line="52" selection-start-column="4492" selection-end-line="52" selection-end-column="4492" />
+        <state relative-caret-position="95">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="41" column="54" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/41-60/41_first_Missing_Positive.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
         </state>
       </provider>
     </entry>
