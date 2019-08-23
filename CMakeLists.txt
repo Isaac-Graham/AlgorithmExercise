@@ -3,4 +3,4 @@ project(Leetcode)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Q 41-60/44_Wildcard_Matching.cpp)
+add_executable(Q 41-60/47_Permutations_ii.cpp)
