@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Q.dir/41-60/47_Permutations_ii.cpp.o"
+  "CMakeFiles/Q.dir/main.cpp.o"
   "Q.pdb"
   "Q.exe"
   "libQ.dll.a"

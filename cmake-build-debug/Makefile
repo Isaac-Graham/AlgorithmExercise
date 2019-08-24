@@ -123,32 +123,32 @@ Q/fast:
 	$(MAKE) -f CMakeFiles/Q.dir/build.make CMakeFiles/Q.dir/build
 .PHONY : Q/fast
 
-41-60/47_Permutations_ii.o: 41-60/47_Permutations_ii.cpp.o
+main.o: main.cpp.o
 
-.PHONY : 41-60/47_Permutations_ii.o
+.PHONY : main.o
 
 # target to build an object file
-41-60/47_Permutations_ii.cpp.o:
-	$(MAKE) -f CMakeFiles/Q.dir/build.make CMakeFiles/Q.dir/41-60/47_Permutations_ii.cpp.o
-.PHONY : 41-60/47_Permutations_ii.cpp.o
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/Q.dir/build.make CMakeFiles/Q.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-41-60/47_Permutations_ii.i: 41-60/47_Permutations_ii.cpp.i
+main.i: main.cpp.i
 
-.PHONY : 41-60/47_Permutations_ii.i
+.PHONY : main.i
 
 # target to preprocess a source file
-41-60/47_Permutations_ii.cpp.i:
-	$(MAKE) -f CMakeFiles/Q.dir/build.make CMakeFiles/Q.dir/41-60/47_Permutations_ii.cpp.i
-.PHONY : 41-60/47_Permutations_ii.cpp.i
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/Q.dir/build.make CMakeFiles/Q.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-41-60/47_Permutations_ii.s: 41-60/47_Permutations_ii.cpp.s
+main.s: main.cpp.s
 
-.PHONY : 41-60/47_Permutations_ii.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-41-60/47_Permutations_ii.cpp.s:
-	$(MAKE) -f CMakeFiles/Q.dir/build.make CMakeFiles/Q.dir/41-60/47_Permutations_ii.cpp.s
-.PHONY : 41-60/47_Permutations_ii.cpp.s
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/Q.dir/build.make CMakeFiles/Q.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Q"
 	@echo "... edit_cache"
-	@echo "... 41-60/47_Permutations_ii.o"
-	@echo "... 41-60/47_Permutations_ii.i"
-	@echo "... 41-60/47_Permutations_ii.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 
