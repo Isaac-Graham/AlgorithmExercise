@@ -1,1 +1,0 @@
-/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Q36.dir/21-40/36_Valid_Sudoku.cpp.o  -o Q36.exe -Wl,--out-implib,libQ36.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

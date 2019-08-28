@@ -1,1 +1,0 @@
-/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Q25.dir/21-40/25_Reverse_Nodes_in_k_Group.cpp.o  -o Q25.exe -Wl,--out-implib,libQ25.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

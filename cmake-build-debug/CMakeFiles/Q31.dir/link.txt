@@ -1,1 +1,0 @@
-/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Q31.dir/21-40/31_Next_Permutation.cpp.o  -o Q31.exe -Wl,--out-implib,libQ31.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

@@ -1,4 +1,3 @@
-ToolSet: 2.11.1@D:\cygwin64
-Options: 
+ToolSet: 1.0 (local)Options: 
 
 Options:

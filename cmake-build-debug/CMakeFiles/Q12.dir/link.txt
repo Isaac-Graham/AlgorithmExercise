@@ -1,1 +1,0 @@
-/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Q12.dir/1-20/12_Integer_to_Roman.cpp.o  -o Q12.exe -Wl,--out-implib,libQ12.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

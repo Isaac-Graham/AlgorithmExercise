@@ -1,1 +1,0 @@
-/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Q4.dir/1-20/4_Median_of_Two_Sorted_Arrays.cpp.o  -o Q4.exe -Wl,--out-implib,libQ4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

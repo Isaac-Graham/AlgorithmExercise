@@ -1,1 +1,0 @@
-/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Q39.dir/21-40/39_Combination_Sum.cpp.o  -o Q39.exe -Wl,--out-implib,libQ39.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

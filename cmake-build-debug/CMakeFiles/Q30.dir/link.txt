@@ -1,1 +1,0 @@
-/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Q30.dir/21-40/30_Substring_with_Concatenation_of_All_Words.cpp.o  -o Q30.exe -Wl,--out-implib,libQ30.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

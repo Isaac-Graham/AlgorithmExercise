@@ -1,1 +1,0 @@
-/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Q23.dir/21-40/23_Merge_k_Sorted_Lists.cpp.o  -o Q23.exe -Wl,--out-implib,libQ23.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

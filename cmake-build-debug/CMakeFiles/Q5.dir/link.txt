@@ -1,1 +1,0 @@
-/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Q5.dir/1-20/5_Longest_Palindromic_Substring.cpp.o  -o Q5.exe -Wl,--out-implib,libQ5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

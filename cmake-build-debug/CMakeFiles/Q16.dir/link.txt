@@ -1,1 +1,0 @@
-/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Q16.dir/1-20/16_3_Sum_Closest.cpp.o  -o Q16.exe -Wl,--out-implib,libQ16.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
