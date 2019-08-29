@@ -57,27 +57,27 @@ include CMakeFiles/Q.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Q.dir/flags.make
 
-CMakeFiles/Q.dir/main.cpp.o: CMakeFiles/Q.dir/flags.make
-CMakeFiles/Q.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/data/Code/Leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Q.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Q.dir/main.cpp.o -c /home/data/Code/Leetcode/main.cpp
+CMakeFiles/Q.dir/41-60/54_Spiral_Matrix.cpp.o: CMakeFiles/Q.dir/flags.make
+CMakeFiles/Q.dir/41-60/54_Spiral_Matrix.cpp.o: ../41-60/54_Spiral_Matrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/data/Code/Leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Q.dir/41-60/54_Spiral_Matrix.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Q.dir/41-60/54_Spiral_Matrix.cpp.o -c /home/data/Code/Leetcode/41-60/54_Spiral_Matrix.cpp
 
-CMakeFiles/Q.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Q.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/data/Code/Leetcode/main.cpp > CMakeFiles/Q.dir/main.cpp.i
+CMakeFiles/Q.dir/41-60/54_Spiral_Matrix.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Q.dir/41-60/54_Spiral_Matrix.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/data/Code/Leetcode/41-60/54_Spiral_Matrix.cpp > CMakeFiles/Q.dir/41-60/54_Spiral_Matrix.cpp.i
 
-CMakeFiles/Q.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Q.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/data/Code/Leetcode/main.cpp -o CMakeFiles/Q.dir/main.cpp.s
+CMakeFiles/Q.dir/41-60/54_Spiral_Matrix.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Q.dir/41-60/54_Spiral_Matrix.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/data/Code/Leetcode/41-60/54_Spiral_Matrix.cpp -o CMakeFiles/Q.dir/41-60/54_Spiral_Matrix.cpp.s
 
 # Object files for target Q
 Q_OBJECTS = \
-"CMakeFiles/Q.dir/main.cpp.o"
+"CMakeFiles/Q.dir/41-60/54_Spiral_Matrix.cpp.o"
 
 # External object files for target Q
 Q_EXTERNAL_OBJECTS =
 
-Q : CMakeFiles/Q.dir/main.cpp.o
+Q : CMakeFiles/Q.dir/41-60/54_Spiral_Matrix.cpp.o
 Q : CMakeFiles/Q.dir/build.make
 Q : CMakeFiles/Q.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/data/Code/Leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Q"

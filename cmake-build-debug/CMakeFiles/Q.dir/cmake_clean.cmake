@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Q.dir/main.cpp.o"
+  "CMakeFiles/Q.dir/41-60/54_Spiral_Matrix.cpp.o"
   "Q.pdb"
   "Q"
 )

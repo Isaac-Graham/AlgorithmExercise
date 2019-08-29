@@ -123,32 +123,32 @@ Q/fast:
 	$(MAKE) -f CMakeFiles/Q.dir/build.make CMakeFiles/Q.dir/build
 .PHONY : Q/fast
 
-main.o: main.cpp.o
+41-60/54_Spiral_Matrix.o: 41-60/54_Spiral_Matrix.cpp.o
 
-.PHONY : main.o
+.PHONY : 41-60/54_Spiral_Matrix.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/Q.dir/build.make CMakeFiles/Q.dir/main.cpp.o
-.PHONY : main.cpp.o
+41-60/54_Spiral_Matrix.cpp.o:
+	$(MAKE) -f CMakeFiles/Q.dir/build.make CMakeFiles/Q.dir/41-60/54_Spiral_Matrix.cpp.o
+.PHONY : 41-60/54_Spiral_Matrix.cpp.o
 
-main.i: main.cpp.i
+41-60/54_Spiral_Matrix.i: 41-60/54_Spiral_Matrix.cpp.i
 
-.PHONY : main.i
+.PHONY : 41-60/54_Spiral_Matrix.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/Q.dir/build.make CMakeFiles/Q.dir/main.cpp.i
-.PHONY : main.cpp.i
+41-60/54_Spiral_Matrix.cpp.i:
+	$(MAKE) -f CMakeFiles/Q.dir/build.make CMakeFiles/Q.dir/41-60/54_Spiral_Matrix.cpp.i
+.PHONY : 41-60/54_Spiral_Matrix.cpp.i
 
-main.s: main.cpp.s
+41-60/54_Spiral_Matrix.s: 41-60/54_Spiral_Matrix.cpp.s
 
-.PHONY : main.s
+.PHONY : 41-60/54_Spiral_Matrix.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/Q.dir/build.make CMakeFiles/Q.dir/main.cpp.s
-.PHONY : main.cpp.s
+41-60/54_Spiral_Matrix.cpp.s:
+	$(MAKE) -f CMakeFiles/Q.dir/build.make CMakeFiles/Q.dir/41-60/54_Spiral_Matrix.cpp.s
+.PHONY : 41-60/54_Spiral_Matrix.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Q"
 	@echo "... edit_cache"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... 41-60/54_Spiral_Matrix.o"
+	@echo "... 41-60/54_Spiral_Matrix.i"
+	@echo "... 41-60/54_Spiral_Matrix.s"
 .PHONY : help
 
 
