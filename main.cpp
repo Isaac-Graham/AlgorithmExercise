@@ -1,5 +1,6 @@
 //#include <bits/stdc++.h>
 #include <iostream>
+#include <climits>
 
 inline int blockNum(int row, int column) {
     return row / 3 * 3 + column / 3;
@@ -53,17 +54,41 @@ bool isPalindrome(int x) {
 }
 
 
+//int main() {
+//    int tc;
+//    scanf("%d", &tc);
+//    for (int loop = 0; loop < tc; loop++) {
+//        int N;
+//        scanf("%d", &N);
+//        int count = 0;
+//        for (int i = 0; i <= N; i++) {
+//            if (isPalindrome(i))
+//                count++;
+//        }
+//        printf("%d\n", count);
+//    }
+//}
+
 int main() {
     int tc;
     scanf("%d", &tc);
     for (int loop = 0; loop < tc; loop++) {
-        int N;
-        scanf("%d", &N);
-        int count = 0;
-        for (int i = 0; i <= N; i++) {
-            if (isPalindrome(i))
-                count++;
+        int n;
+        scanf("%d", &n);
+//        int mid = -1;
+        int COUNT = INT_MAX;
+
+        for (int i = n - 1; i > 1; i--) {
+            if (n % i == 0 && !((n / i) % 2 == 0 && (i % 2 == 0))) {
+//                mid = i;
+
+                COUNT = (n / i) % 2 == 1 ? std::min(COUNT, n / i) : std::min(COUNT, (2 * n / i));
+            }
         }
-        printf("%d\n", count);
+        if (COUNT == INT_MAX)
+            printf("impossible");
+        else {
+            printf("%d", COUNT);
+        }
     }
 }

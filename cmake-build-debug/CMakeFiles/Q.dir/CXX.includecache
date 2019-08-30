@@ -7,6 +7,8 @@
 #IncludeRegexTransform: 
 
 /home/data/Code/Leetcode/main.cpp
-bits/stdc++.h
+iostream
+-
+climits
 -
 
