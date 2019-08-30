@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/data/Code/Leetcode/41-60/54_Spiral_Matrix.cpp" "/home/data/Code/Leetcode/cmake-build-debug/CMakeFiles/Q.dir/41-60/54_Spiral_Matrix.cpp.o"
+  "/home/data/Code/Leetcode/main.cpp" "/home/data/Code/Leetcode/cmake-build-debug/CMakeFiles/Q.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
