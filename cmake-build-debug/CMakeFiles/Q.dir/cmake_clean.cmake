@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Q.dir/main.cpp.o"
+  "Q.exe"
   "Q.pdb"
-  "Q"
+  "libQ.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

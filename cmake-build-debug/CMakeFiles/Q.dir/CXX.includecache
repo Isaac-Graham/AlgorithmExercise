@@ -6,9 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/data/Code/Leetcode/main.cpp
-iostream
--
-climits
+/cygdrive/e/Code/Leetcode/main.cpp
+bits/stdc++.h
 -
 
