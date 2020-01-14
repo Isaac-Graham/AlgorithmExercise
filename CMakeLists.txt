@@ -3,5 +3,5 @@ project(Leetcode)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Q 61-80/63_Unique_Paths_II.cpp)
+add_executable(Q 61-80/69_Sqrtx.cpp)
 #add_executable(Q main.cpp )
