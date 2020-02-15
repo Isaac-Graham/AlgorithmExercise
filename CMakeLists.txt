@@ -3,5 +3,5 @@ project(Leetcode)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Q leetcode/editor/cn/[80]remove-duplicates-from-sorted-array-ii.cpp)
+add_executable(Q leetcode/editor/cn/[94]binary-tree-inorder-traversal.cpp)
 #add_executable(Q main.cpp)
