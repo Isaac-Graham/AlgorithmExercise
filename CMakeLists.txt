@@ -3,5 +3,5 @@ project(Leetcode)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Q KickStart/2020ARound/Workout.cpp)
+add_executable(Q Leetcode/editor/cn/[面试题38]zi-fu-chuan-de-pai-lie-lcof.cpp)
 #add_executable(Q main.cpp)
