@@ -3,5 +3,5 @@ project(Leetcode)
 
 set(CMAKE_CXX_STANDARD 14)
 
-#add_executable(Q KickStart/2020ARound/Bundling.cpp)
-add_executable(Q ByteDance/Interview/Couponggi.cpp)
+add_executable(Q ByteDance/2020InternCodingPart/Coupon.cpp)
+add_executable(KickStart KickStart/2020CRound/Perfect_Subarray.cpp)
