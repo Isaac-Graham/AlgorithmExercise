@@ -5,4 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 #add_executable(Q ByteDance/2020InternCodingPart/Coupon.cpp)
 #add_executable(KickStart KickStart/2020CRound/Perfect_Subarray.cpp)
-add_executable(leetcode leetcode/editor/cn/[103]binary-tree-zigzag-level-order-traversal.cpp)
+add_executable(leetcode leetcode/editor/cn/[106]construct-binary-tree-from-inorder-and-postorder-traversal.cpp)
