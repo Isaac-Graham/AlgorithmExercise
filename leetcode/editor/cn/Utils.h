@@ -2,8 +2,8 @@
 // Created by Isc on 2020/6/11.
 //
 
-#ifndef LEETCODE_TREENODE_H
-#define LEETCODE_TREENODE_H
+#ifndef LEETCODE_UTILS_H
+#define LEETCODE_UTILS_H
 
 #include<bits/stdc++.h>
 
@@ -81,4 +81,19 @@ struct TreeNode {
     }
 };
 
-#endif //LEETCODE_TREENODE_H
+class Node {
+public:
+    int val;
+    Node *left;
+    Node *right;
+    Node *next;
+
+    Node() : val(0), left(NULL), right(NULL), next(NULL) {}
+
+    Node(int _val) : val(_val), left(NULL), right(NULL), next(NULL) {}
+
+    Node(int _val, Node *_left, Node *_right, Node *_next)
+            : val(_val), left(_left), right(_right), next(_next) {}
+};
+
+#endif //LEETCODE_UTILS_H
