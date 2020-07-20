@@ -79,6 +79,33 @@ struct TreeNode {
 
         }
     }
+
+    static TreeNode *buildTree(const vector<int> &vec) {
+        if (vec.empty()) {
+            return nullptr;
+        }
+        vector<TreeNode *> nodes;
+        for (int i = 0; i < vec.size(); i++) {
+            if (vec[i] == NULL) {
+                nodes.push_back(nullptr);
+            } else {
+                nodes.push_back(new TreeNode(vec[i]));
+            }
+        }
+        for (int i = 0; i < nodes.size(); i++) {
+            int leftIndex = (i + 1) * 2 - 1;
+            int rightIndex = (i + 1) * 2;
+            if (leftIndex > nodes.size()) {
+                continue;
+            }
+            if (nodes[i] == nullptr) {
+                continue;
+            }
+            nodes[i]->left = nodes[leftIndex];
+            nodes[i]->right = nodes[rightIndex];
+        }
+        return nodes[0];
+    }
 };
 
 class Node {
