@@ -8,4 +8,4 @@ set(CMAKE_CXX_STANDARD 14)
 #add_executable(leetcode leetcode/editor/cn/Utils.h
 #        leetcode/editor/cn/[125]valid-palindrome.cpp)
 add_executable(main main.cpp)
-add_executable(alibaba Alibaba/2020Fall/OnlineCoding/20200717-Q1.cpp)
+add_executable(alibaba Alibaba/2020Fall/OnlineCoding/20200717-Q2.cpp)
