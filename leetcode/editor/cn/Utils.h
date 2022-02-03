@@ -86,11 +86,7 @@ struct TreeNode {
         }
         vector<TreeNode *> nodes;
         for (int i = 0; i < vec.size(); i++) {
-            if (vec[i] == NULL) {
-                nodes.push_back(nullptr);
-            } else {
-                nodes.push_back(new TreeNode(vec[i]));
-            }
+            nodes.push_back(new TreeNode(vec[i]));
         }
         for (int i = 0; i < nodes.size(); i++) {
             int leftIndex = (i + 1) * 2 - 1;
