@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 14)
 #add_executable(Q ByteDance/2020InternCodingPart/Coupon.cpp)
 #add_executable(KickStart KickStart/2020CRound/Perfect_Subarray.cpp)
 add_executable(leetcode leetcode/editor/cn/Utils.h
-        leetcode/editor/cn/[剑指\ Offer\ 48]zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof.cpp)
+        leetcode/editor/cn/[剑指\ Offer\ 51]shu-zu-zhong-de-ni-xu-dui-lcof.cpp)
 add_executable(main main.cpp)
 #add_executable(alibaba Alibaba/2020Fall/OnlineCoding/20200724-Q1.cpp )
 add_executable(tencent Tencent/技术架构/二面/question3.cpp)
