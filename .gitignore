@@ -4,3 +4,4 @@ cmake-build-debug
 leetcode/editor/cn/all.json
 leetcode/editor/cn/translation.json
 *.exe
+leetcode/editor/cn/doc
